@@ -1,0 +1,87 @@
+	  <!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="oldie ie6" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7 ]>    <html class="oldie ie7" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8 ]>    <html class="oldie ie8" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="ROBOTS" content="NOINDEX, FOLLOW" />
+<title>Message - dh</title>
+<link rel="search" href="https://fack.org/search.php" title="Search" />
+<link rel="author" href="https://fack.org/userlist.php" title="User list" />
+<link rel="stylesheet" type="text/css" media="screen" href="https://fack.org/style/Oxygen/Oxygen.min.css" />
+
+</head>
+<body>
+	<div id="brd-messages" class="brd"></div>
+
+	<div id="brd-wrap" class="brd">
+	<div id="brd-message" class="brd-page basic-page">
+	<div id="brd-head" class="gen-content">
+		<p id="brd-access"><a href="#brd-main">Skip to forum content</a></p>
+		
+		
+	</div>
+	<div id="brd-navlinks" class="gen-content">
+		<ul>
+		<li id="navindex"><a href="https://fack.org/index.php">Index</a></li>
+		<li id="navrules"><a href="https://fack.org/misc.php?action=rules">Rules</a></li>
+		<li id="navregister"><a href="https://fack.org/register.php">Register</a></li>
+		<li id="navlogin"><a href="https://fack.org/login.php">Login</a></li>
+	</ul>
+		
+	</div>
+	<div id="brd-visit" class="gen-content">
+		
+		
+	</div>
+	
+	<div class="hr"><hr /></div>
+	<div id="brd-main">
+		<h1 class="main-title">Message</h1>
+
+		<div id="brd-crumbs-top" class="crumbs">
+	<p><span class="crumb crumbfirst"><a href="https://fack.org/index.php">dh</a></span> <span class="crumb crumblast"><span> »&#160;</span>Message</span> </p>
+</div>
+		
+		
+			<div class="main-head">
+		<h2 class="hn"><span>Message</span></h2>
+	</div>
+
+	<div class="main-content main-message">
+		<p><a href="/login.php">?</a></p>
+	</div>
+		
+		<div id="brd-crumbs-end" class="crumbs">
+	<p><span class="crumb crumbfirst"><a href="https://fack.org/index.php">dh</a></span> <span class="crumb crumblast"><span> »&#160;</span>Message</span> </p>
+</div>
+	</div>
+		<!-- forum_qpost -->
+		<!-- forum_info -->
+	<div class="hr"><hr /></div>
+	<div id="brd-about">
+		<p id="copyright">Powered by <a href="#"><strong>Yo Mamma</strong></a></p>
+	</div>
+		<!-- forum_debug -->
+	</div>
+	</div>
+	<script>if (typeof PUNBB === 'undefined' || !PUNBB) {
+		var PUNBB = {};
+	}
+
+	PUNBB.env = {
+		base_url: "https://fack.org/",
+		base_js_url: "https://fack.org/include/js/",
+		user_lang: "English2",
+		user_style: "Oxygen",
+		user_is_guest: "1",
+		page: "message"
+	};</script>
+<script src="https://fack.org/include/js/min/punbb.common.min.js"></script>
+<script>
+	$LAB.setOptions({AlwaysPreserveOrder:false})
+	.script("https://fack.org/extensions/pun_jquery/js/jquery-1.6.4.min.js").wait();
+</script>
+</body>
+</html>

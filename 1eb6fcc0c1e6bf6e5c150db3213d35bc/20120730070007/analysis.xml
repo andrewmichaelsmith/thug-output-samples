@@ -1,0 +1,163 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-07-30 07:00:07.600193" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://admincareers.com" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:9">
+                                <Discovery_Method tool_id="maec:thug:tol:8" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					document.write('&lt;div class="jt_job_list"&gt;');document.write("&lt;div class=\"jt_job jt_row2\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10660765\"&gt;Office Administrator C&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;Chicago, IL&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Boeing&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row1\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10662866\"&gt;Administrator&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;Forest Grove, OR&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Prestige Care Inc&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row2\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10664652\"&gt;Administrative&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;El Paso, TX&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Confidential&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row1\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10660983\"&gt;IT Administrator&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;Duluth, MN&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;AAR&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row2\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10659668\"&gt;Administrative Assistant&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;Philadelphia, PA&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Marketing and Business Units&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row1\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10656585\"&gt;Administrative Assistant&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;White Plains, CT&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Merritt Staffing&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row2\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10657173\"&gt;Administrative Assistant&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;New Haven, CT&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;The McIntyre Group&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row1\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10657133\"&gt;SYSTEM ADMINISTRATIVE DIRECTOR OF QUALITY -- TEXAS (17188)&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;TX&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;STERN &amp; ASSOCIATES, INC.&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row2\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10657121\"&gt;Administrative Assistant&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;New Haven County, CT&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;The McIntyre Group&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row1\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10403312\"&gt;Receptionist&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;Stamford, CT&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Elite Placement Group, LLC&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_job jt_row2\"&gt;&lt;div class=\"jt_job_position\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/job.cfm?site_id=268&amp;jb=10653438\"&gt;Health Services Administrator 4&lt;/a&gt;&lt;/div&gt;&lt;div class=\"jt_job_location\"&gt;Everett, WA&lt;/div&gt;&lt;div class=\"jt_job_company\"&gt;Boeing&lt;/div&gt;&lt;/div&gt;");
+					document.write("&lt;div class=\"jt_alljobs\"&gt;&lt;a href=\"http://jobs.admincareers.com/c/search_results.cfm?site_id=268\"&gt;View All Jobs&lt;/a&gt;&lt;/div&gt;");document.write('&lt;/div&gt;');
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>External</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:13">
+                                <Discovery_Method tool_id="maec:thug:tol:12" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					if (!(getMLTCookie('hittail_ok')))
+					{
+						setMLTCookie ('hittail_ok', '1', '', '/', document.domain, '')
+					}
+					
+					
+					function setMLTCookie(name, value, expires, path, domain, secure) {
+					  var curCookie = name + "=" + escape(value) +
+					  //    ((expires) ? "; expires=" + expires.toGMTString() : "") +
+					      ((path) ? "; path=" + path : "") +
+					      ((domain) ? "; domain=" + domain : "") +
+					      ((secure) ? "; secure" : "");
+					  document.cookie = curCookie;
+					}
+					
+					function getMLTCookie(name) {
+					  var dc = document.cookie;
+					  var prefix = name + "=";
+					  var begin = dc.indexOf("; " + prefix);
+					  if (begin == -1) {
+					    begin = dc.indexOf(prefix);
+					    if (begin != 0) return null;
+					  } else
+					    begin += 2;
+					  var end = document.cookie.indexOf(";", begin);
+					  if (end == -1)
+					    end = dc.length;
+					  return unescape(dc.substring(begin + prefix.length, end));
+					}
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>External</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:15">
+                                <Discovery_Method tool_id="maec:thug:tol:14" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-19474848-11']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:19">
+                                <Discovery_Method tool_id="maec:thug:tol:18" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					if (!(getMLTCookie('hittail_ok')))
+					{
+						setMLTCookie ('hittail_ok', '1', '', '/', document.domain, '')
+					}
+					
+					
+					function setMLTCookie(name, value, expires, path, domain, secure) {
+					  var curCookie = name + "=" + escape(value) +
+					  //    ((expires) ? "; expires=" + expires.toGMTString() : "") +
+					      ((path) ? "; path=" + path : "") +
+					      ((domain) ? "; domain=" + domain : "") +
+					      ((secure) ? "; secure" : "");
+					  document.cookie = curCookie;
+					}
+					
+					function getMLTCookie(name) {
+					  var dc = document.cookie;
+					  var prefix = name + "=";
+					  var begin = dc.indexOf("; " + prefix);
+					  if (begin == -1) {
+					    begin = dc.indexOf(prefix);
+					    if (begin != 0) return null;
+					  } else
+					    begin += 2;
+					  var end = document.cookie.indexOf(";", begin);
+					  if (end == -1)
+					    end = dc.length;
+					  return unescape(dc.substring(begin + prefix.length, end));
+					}
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>External</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://admincareers.com</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.6</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://admincareers.com (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:6">
+            <Description>
+                <Text>[HTTP] URL: http://www.jobtarget.com/distrib_pages/jobs.cfm?site_id=268&amp;max=11 (Status: 200, Referrer: http://admincareers.com)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:7" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:10">
+            <Description>
+                <Text>[HTTP] URL: http://33733.hittail.com/mlt.js (Status: 200, Referrer: http://admincareers.com)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:11" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:16">
+            <Description>
+                <Text>[HTTP] URL: http://33733.hittail.com/mlt.js (Status: 200, Referrer: http://admincareers.com)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:17" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>

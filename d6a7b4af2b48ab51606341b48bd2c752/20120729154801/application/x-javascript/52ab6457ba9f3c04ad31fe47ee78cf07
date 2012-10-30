@@ -1,0 +1,12 @@
+document.write('<!-- FM c-49841 p-161810 b-74845 -->');
+
+var loc = document.location.protocol == "https:" ? "https://" : "http://";
+loc += "remnant.fmpub.net/zone/356?t=js";
+document.write('<sc'+'ript');
+document.write(' type="text/javascript"');
+document.write(' language="JavaScript"');
+document.write(' src="' + loc + '"');
+document.write('>');
+document.write('</sc'+'ript>');
+
+document.write('');

@@ -1,0 +1,1455 @@
+<!doctype html>
+<html lang="en">
+<head itemscope='' itemtype='http://schema.org/Blog'>
+<title>Boing Boing</title>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="/wp-content/themes/bb/sundries/apple-touch-icon.png"/>
+<meta property="og:site_name" content="Boing Boing" />
+<meta property="fb:admins" content="1219680052" />
+
+<link rel="stylesheet" type="text/css" media="all" href="http://boingboing.net/wp-content/themes/bb/style.css?v25" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://feeds.boingboing.net/boingboing/iBag">
+
+<script type="text/javascript" src="http://use.typekit.com/its8tor.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1">  -->
+
+<!-- Begin AdMob code -->
+<script type="text/javascript">
+var admob_vars = {
+pubid: 'a14de7ef2935200', // publisher id
+bgcolor: 'C62919', // background color (hex)
+text: 'FFFFFF', // font-color (hex)
+test: false // test mode, set to false to receive live ads
+};
+</script>
+<script type="text/javascript" src="http://mmv.admob.com/static/iphone/iadmob.js"></script>
+<!-- End AdMob code -->
+
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script><!-- For Newsbeat -->
+<!--[if lte IE 7]><style>h1,h3,h4 {font-size:12px;}#logo {position:relative;float:left;}#mostCommented {float:left;margin-left:30px} </style><![endif]-->
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://boingboing.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://boingboing.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.1, fitted with the WordPress Mobile Pack 1.2.4" />
+<link rel='stylesheet' type='text/css' href='http://boingboing.net/wp-content/plugins/embedly/css/embedly.css' />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ddd; background-image: url('http://boingboing.net/wp-content/uploads/2012/05/bright_squares2.png'); background-repeat: repeat; background-position: top center; background-attachment: fixed; }
+</style>
+
+<script type="text/javascript">federated_media_section = "BBHomepage";</script> 
+
+  <meta property="og:image" content="/wp-content/themes/bb/sundries/apple-touch-icon.png" />
+
+</head>
+
+<body class="home blog custom-background" itemscope='' itemtype='http://schema.org/Blog'>
+
+
+<h2 id="JKAnchor"><img src="http://boingboing.net/wp-content/themes/bb/sundries/boingboing.jpg"></h2> <!-- top anchor for j/k navigation -->
+
+<!-- <a id="showart" onclick="toggleContent();">SHOW ART</a> -->
+
+<div id="ad_leaderboard">
+  <center>
+    <!-- FM Leaderboard Zone --> 
+  <iframe src="http://boingboing.net/wp-content/themes/bb/ad_leaderboard.html?fm_url=http://boingboing.net/&federated_media_section=BBHomepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" width="100%"> </iframe>
+  <!-- FM Leaderboard Zone --> 
+    </center>
+</div>
+
+<div id="container">
+
+<div id="masthead">
+
+	<a href="http://boingboing.net"><img src="http://boingboing.net/wp-content/themes/bb/sundries/logo.png" id="logo"></a>
+	
+	<div id="navHolder">
+	
+	<h1 id="more">
+		<a href="http://submit.boingboing.net" id="nav-submit" style="color:red"><b>Submit a Link</b></a>
+	
+		
+	<a href="http://boingboing.net/tag/gweek" class="navhide3" id="nav-gweek" style="color:#3aF">Gweek</a> 
+		<a href="http://boingboing.net/tag/appsforkids" class="navhide3" id="nav-appsforkids" style="color:#3aF">Apps For Kids</a>	
+		<a href="http://shop.boingboing.net" class="navhide2" id="nav-shop"  style="color:#0F0">Shop</a>
+	</h1>
+	
+	<h1 id="nav">
+		
+		<a href="http://boingboing.net/category/featured/" id="nav-features">Features</a> 
+		<a href="http://boingboing.net/tag/reviews/" class="navhide3" id="nav-reviews">Reviews</a> 
+		<a href="http://boingboing.net/tag/science/" class="navhide3" id="nav-science">Science</a>
+		<a href="http://boingboing.net/archive" class="navhide3" id="nav-archive">Archives</a>	
+		<!--<a href="http://boingboing.net/tag/b-side/" class="navhide" id="nav-bside">B-SIDE</a>-->
+		<a href="http://boingboing.net/about" class="navhide2" id="nav-about">About Us</a> 
+		
+	
+	</h1>
+	
+	</div>
+	
+	<div id="noMobile">
+		<h1><a href="javascript:void(0)" onClick="showAll()">DESKTOP VIEW</a></h1>
+	</div>
+
+</div>
+
+
+<div id="searchbox" class="searchbox">
+<form action="http://www.google.com/cse" id="cse-search-box" class="searchbox" style="position:relative;">
+	<input name="cx" value="partner-pub-2170174688585464:d58nno-rqp8" type="hidden">
+	<input name="ie" value="ISO-8859-1" type="hidden">
+	<input name="q" id="searchInputField" size="18" class="searchinput searchbox" onclick="document.onkeydown = function (){};" type="text" style="border-radius:0px;-webkit-border-radius:0px;-moz-border-radius:0px;box-shadow:none;padding:1px;">
+	<input src="http://boingboing.net/wp-content/themes/bb/sundries/searchgo.png" class="" style="width:21px;border:none;border-radius:0px;-webkit-border-radius:0px;-moz-border-radius:0px;box-shadow:none;height:20px;padding:3px 0px 0px 0px;margin:none;;float:right;" name="sa" value="SEARCH" type="image">
+	<input value="http://boingboing.net" name="siteurl" type="hidden">
+</form>	
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+
+</div><!-- FEATURE CAROUSEL. The OnLoad javascript in IMG tags resizes parent divs to match the width of the image -->
+
+<div id="features">
+	<div style="width:199%;">
+
+				  
+	
+	  
+	<div class="car" id="car1">
+		<a href="http://boingboing.net/2012/07/27/win-tickets-to-san-francisco.html">
+		<h3 class="carouselHeadline">
+		
+		Win tickets to San Francisco's Outside Lands music festival!<br>
+		<span class="carByline">David Pescovitz</span>
+		</h3>
+		
+				 
+		<img class="carousel" src="http://boingboing.net/wp-content/uploads/2012/07/outside.jpg" id="featureImage1" onload="document.getElementById('car1').style.width = this.width + 'px'">
+		</a>
+	</div>
+		
+			  
+	
+	  
+	<div class="car" id="car2">
+		<a href="http://boingboing.net/2012/07/25/more-men-join-the-ranks-of-for.html">
+		<h3 class="carouselHeadline">
+		
+		More men join the ranks of Former Eagle Scout<br>
+		<span class="carByline">Maggie Koerth-Baker</span>
+		</h3>
+		
+				 
+		<img class="carousel" src="http://boingboing.net/wp-content/uploads/2012/07/boy_scout_with_oath.jpg" id="featureImage2" onload="document.getElementById('car2').style.width = this.width + 'px'">
+		</a>
+	</div>
+		
+			  
+	
+	  
+	<div class="car" id="car3">
+		<a href="http://boingboing.net/2012/07/20/the-wonder-of-small-things.html">
+		<h3 class="carouselHeadline">
+		
+		The wonder of small things<br>
+		<span class="carByline">Maggie Koerth-Baker</span>
+		</h3>
+		
+				 
+		<img class="carousel" src="http://boingboing.net/wp-content/uploads/2012/07/smallthingscarousel.jpg" id="featureImage3" onload="document.getElementById('car3').style.width = this.width + 'px'">
+		</a>
+	</div>
+		
+			  
+	
+	  
+	<div class="car" id="car4">
+		<a href="http://boingboing.net/2012/07/20/gunman-kills-at-least-12-in-mo.html">
+		<h3 class="carouselHeadline">
+		
+		Gunman kills at least 12 in movie theater at "The Dark Knight Rises" screening in Aurora, Colorado<br>
+		<span class="carByline">Boing Boing</span>
+		</h3>
+		
+				 
+		<img class="carousel" src="http://boingboing.net/wp-content/uploads/2012/07/coloshootings.jpg" id="featureImage4" onload="document.getElementById('car4').style.width = this.width + 'px'">
+		</a>
+	</div>
+		
+	    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'boingboing';
+        var disqus_domain = 'disqus.com';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+		
+	<script type="text/javascript">
+	  $(document).ready(function(){
+  	  $('.carousel').each(function(){
+        $(this).css('width', $(this, 'img').css('width'));
+  	  });
+    });
+	</script>
+
+	</div>
+</div>
+	
+<div id="sidebar">
+  <div id="mobile-toggle" style="display:none">
+    <center>
+      <a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='/?wpmp_switcher=mobile'>
+        <h2>Switch to our mobile site</h2>
+      </a>
+    </center>
+  </div>
+  
+  <script type="text/javascript">
+    (function(a){
+      if(/android.+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|e\-|e\/|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(di|rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|xda(\-|2|g)|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))
+      $('#mobile-toggle').show();
+      })(navigator.userAgent||navigator.vendor||window.opera);
+  </script>
+
+<div id="sidebar_ads" style="background-color:#eee;">
+	<div id="ad_300">
+	        <iframe id="ad_300_frame" src="http://boingboing.net/wp-content/themes/bb/ad_300.html?fm_url=http://boingboing.net/&federated_media_section=BBHomepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" width="300px"> </iframe>
+      <script type="text/javascript">
+        function resizeIframe(newHeight)
+        {
+            console.log(newHeight);
+            newHeight = parseInt(newHeight);
+            console.log(newHeight);
+            if(newHeight < 250){ newHeight = 250; }
+            document.getElementById('ad_300_frame').style.height = newHeight + 'px';
+            $('#ad_300_frame').css('height', newHeight+'px');
+        }
+      </script>
+    	</div>
+	
+	<div id="ad_squares" style="">
+	  
+	  <div id="ad_squares_toprow">
+    		<div style="float:left;">
+				<a href="http://watchismo.com" rel="nofollow"><img src="http://boingboing.net/wp-content/uploads/2011/11/boingboing-watchismo-ad-4.gif"></a>
+    		</div>
+    	
+    		<div style="float:right;width:125px;height:125px;overflow:hidden;">
+        <!-- Shanalogic ad -->
+        <a href="http://www.shanalogic.com/" rel="nofollow"><img src="http://boingboing.net/wp-content/uploads/2012/07/125x125_july2012.gif" id="shanalogic-ad" /></a>
+        <script type="text/javascript">
+          var n = parseInt(Math.random()*2+1);
+          switch(n){
+            case 1:
+              var url = "http://boingboing.net/wp-content/uploads/2012/07/125x125_july2012.gif";
+              break;
+            case 2:
+              var url = "http://boingboing.net/wp-content/uploads/2012/07/125x125_july2012_heart.gif";
+              break;
+            case 3:
+              var url = "http://boingboing.net/wp-content/uploads/2012/07/125x125_july2012_tacnyan.gif";
+              break;
+            default:
+              var url = "http://boingboing.net/wp-content/uploads/2012/07/125x125_july2012.gif";
+              break;
+          }
+          $("#shanalogic-ad").attr("src", url);
+        </script>
+        <!-- end Shanalogic ad -->
+    		</div>	
+		</div>	
+		
+		<div id="ad_squares_bottomrow">
+			<div style="float:left;">
+        <script type="text/javascript">
+        mpt = new Date();
+        mpts = mpt.getTimezoneOffset() + mpt.getTime();
+        if (!document.layers) {
+        document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/altfarm.mediaplex.com\/ad\/js\/8975-146631-16268-0\?mpt=" + mpts +"&mpvc=\"><\/script>");
+        } else {
+        document.write("<a href=\"http://altfarm.mediaplex.com/ad/ck/8975-146631-16268-0?mpt=" + mpts + "\"><img src=\"http://altfarm.mediaplex.com/ad/bn/8975-146631-16268-0?mpt=" + mpts + "\" alt=\"Click Here\" border=\"0\"></a>" );
+        }
+        </script>
+        <noscript>
+        <a href="http://altfarm.mediaplex.com/ad/nc/8975-146631-16268-0">
+        <img src="http://altfarm.mediaplex.com/ad/nb/8975-146631-16268-0" alt="Click Here" border="0"></a>
+        </noscript>
+    	</div>
+    	
+			<div style="float:right;width:125px;height:125px;overflow:hidden;">
+				<a href="http://www.eff.org/"><img src="http://boingboing.net/wp-content/uploads/2012/06/eff-join.png" /></a>
+    	</div>	
+	  </div>
+	  
+	</div> <!-- end ad_squares div -->
+	
+	</div><!-- end sidebar_ads div -->
+<div class="sidebarFeature" style="height:60px;">	
+	<a href="http://boingboing.net/tag/gweek">
+			<img src="http://boingboing.net/wp-content/uploads/2012/05/gweeksidebar.jpg">
+		</a>	
+			</div>
+		
+	<div class="sidebarFeature" style="height:60px;">				
+			
+		<a href="http://boingboing.net/tag/tom-the-dancing-bug">
+			<img style="margin-left:-532px" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</a>	
+		
+	</div>
+	
+	<div class="sidebarFeature"  style="height:60px;">		
+		
+		<a href="http://boingboing.net/tag/brain-rot">
+			<a href="http://boingboing.net/tag/brain-rot">
+			<img style="margin-left:-832px" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</a>
+		</a>	
+		
+	</div>
+
+<!--
+		<div id="sidebarAuthors" class="sidebarInnerCol">
+
+	<h3 class="sidebarTitlesSmall">EDITORS</h3>
+		<a href="http://boingboing.net/about#mark"><img src="http://boingboing.net/wp-content/uploads/2012/02/mark.jpg" alt=""></a>
+		<a href="http://boingboing.net/about#cory"><img src="http://boingboing.net/wp-content/uploads/2012/02/cory.jpg" alt=""></a>
+		<a href="http://boingboing.net/about#pesco"><img src="http://boingboing.net/wp-content/uploads/2012/02/pesco.jpg" alt=""></a>
+		<a href="http://boingboing.net/about#xeni"><img src="http://boingboing.net/wp-content/uploads/2012/02/xeni100.jpg" alt=""></a>
+		<a href="http://boingboing.net/about#rob"><img src="http://boingboing.net/wp-content/uploads/2012/02/rob.jpg" alt=""></a>
+		<a href="http://boingboing.net/about#maggie"><img src="http://boingboing.net/wp-content/uploads/2012/02/maggie.jpg" alt=""></a>
+
+	</div>
+-->
+
+	
+<div class="sidebarInnerCol" id="adsnstaff"> 
+
+<div id="ad_skyscraper"> 
+	<!-- FM Wide Skyscraper 1 Zone --> 
+  <iframe src="http://boingboing.net/wp-content/themes/bb/ad_skyscraper.html?fm_url=http://boingboing.net/&federated_media_section=BBHomepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" width="160px" height="600px"> </iframe>
+	<!-- FM Wide Skyscraper 1 Zone -->
+</div>
+
+	<ul style="list-style-type:none;line-height:1.1"> 
+	 	<li><p>
+	 	<a href="">Mark Frauenfelder</a><br>
+	 	<a href="">Cory Doctorow</a><br>
+	 	<a href="">David Pescovitz</a><br>
+	 	<a href="">Xeni Jardin</a>
+	 	<br>Editors</li> 
+	 	
+	 	<li><p><a href="">Rob Beschizza</a><br>
+	 	Managing Editor</li> 
+	 	<li><p><a href="">Maggie Koerth-Baker</a><br>
+	 	Science Editor</li> 
+	 	<li><p><a href="">Jamie Frevele</a><br>
+	 	Entertainment Editor</li> 
+	 	
+	 	
+	 	<li><p><a href="http://www.bother.com/">Jason Weisberger</a><br>Publisher</li> 
+		<li><p><a href="">Ken Snider</a><br>Sysadmin</li> 
+		<li><p><a href="http://deanputney.org/">Dean Putney</a><br>Developer</li> 
+		
+		<li><p><a href="">Antinous</a>
+		<br>Lead Moderator	</li>	
+		
+		<li><p><a href="">Avram &amp; </a><a href="">Felton</a>
+		<br>Moderators</li>	
+		
+		<li><p><a href="http://ericmittleman.com/">Eric Mittleman</a><br>Video Editor</li> 
+		<li><p><a href="">Terry Thurlow</a><br>Finance</li> 
+		<li><p><a href="http://ejms.com/">Ed Szylko</a><br>Insurance</li> 		
+
+		
+	</ul> 
+ 	<br style="clear:both;">
+</div> 
+
+	<!-- FM Square Button Flat Rate Zone -->
+		<script type='text/javascript' src='http://static-cf.fmpub.net/zone/15'></script>
+	<!-- FM Square Button Flat Rate Zone -->
+    			
+    			
+    			
+
+	<div id="sidebarPinPoint" style="height:0px;clear:both;"></div>
+	
+	<div id="sidebarsticky">
+		<div id="sidebarSlidey">
+		
+<div class="sidebarInnerCol"> 
+
+
+
+	<div id="post-sidebar">
+	<h3 class="sidebarTitles"><a href="http://boingboing.net/2012/05/31/boing-boing-ship-t-shirt.html">Boing Boing Ship T-Shirt</a></h3>
+	<p><a href="http://shop.boingboing.net/product/Boing-Boing-Ship"><img src="http://boingboing.net/wp-content/uploads/2012/05/Boing-Boing-Ship_25394-l.jpg" alt="" title="Boing-Boing-Ship_25394-l" width="300" height="200" class="alignright size-full wp-image-163854" /></a>By illustrator Kevin Dart, the creator of Yuki 7. It's $16.95 in the Boing Boing Shop!<center><p><a href="http://shop.boingboing.net/product/Boing-Boing-Ship"><img src="http://boingboing.net/wp-content/uploads/2012/05/buynow.jpg" alt="" title="buynow" width="145" height="44" class="alignright size-full wp-image-163855" /></a><center>	</div>
+
+
+
+
+<script type="text/javascript">
+  var src = $("#post-sidebar iframe").attr("src");
+  if(src != null){
+    src = src.split("?");
+    if(src.length > 1){
+      src = src[0]+"?wmode=transparent&controls=0&"+src[1];
+    }
+    else{
+      src = src[0]+"?wmode=transparent&controls=0";
+    }
+    $("#post-sidebar iframe").attr("src", src);
+  }
+</script>
+
+
+ </div>
+ 
+	<div id="sidebarJill" class="sidebarInnerCol"><img style="float:left;margin-right:10px;" src="http://www.boingboing.net/mtimages/jjill_static.gif" name="MyImage" alt="Jill" onmouseover="document.MyImage.src='http://www.boingboing.net/mtimages/jjill_bounce.gif';" onmouseout="document.MyImage.src='http://www.boingboing.net/mtimages/jjill_static.gif';"> 
+		<h1 class="uppercase">Follow: <a href="http://twitter.com/boingboing">Twitter</a> and <a href="http://facebook.com/boingboing">Facebook</a></h1>
+		<h1 class="uppercase">Subscribe: <a href="http://eepurl.com/eMUlY">Daily Email</a> and <a href="http://feeds.boingboing.net/boingboing/iBag">RSS</a></h1>
+		<h1  class="uppercase" style="margin-bottom:6px;"><a href="http://boingboing.net/contactus">Contact us</a> &bull; <a href="http://boingboing.net/about">FAQ</a> &bull; <a href="http://boingboing.net/policies">Policies</a> </h1>
+		
+		<center><p><a href="http://typekit.com/"><img src="http://boingboing.net/wp-content/uploads/2012/02/typekit.png"></a></center>
+	</div>
+	
+	
+</div>
+
+
+</div>
+</div>
+
+<div id="column">	
+
+  
+
+
+  
+<div id="post-173803" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/uk-high-court-experiences-flas.html" rel="bookmark">UK high court experiences flash of sanity, decriminalizes sarcastic aviation tweeting</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173803');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/cory_doctorow_1" title="Posts by Cory Doctorow" rel="author">Cory Doctorow</a></span> at 7:42 pm Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/uk-high-court-experiences-flas.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173803').style.display='inline'" id="sharethis-trigger-173803"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173803" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=UK high court experiences flash of sanity, decriminalizes sarcastic aviation tweeting - http://boingboing.net/2012/07/28/uk-high-court-experiences-flas.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/uk-high-court-experiences-flas.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=UK+high+court+experiences+flash+of+sanity%2C+decriminalizes+sarcastic+aviation+tweeting: http://boingboing.net/2012/07/28/uk-high-court-experiences-flas.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173803" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-77px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">Cory Doctorow</h4><p><table width="100%"><tr><td valign="top">
+Jul 26-29, Vegas <a href="http://www.defcon.org/">Defcon</a><br>
+Jul 31, San Francisco <a href="http://blog.longnow.org/02012/07/02/cory-doctorow-seminar-primer/">Long Now</a><br>
+Aug 17-20, St Petersburg <a href="http://www.fantassemblee.ru/">SF&amp;F Assembly</a> </td><td valign="top" align="right"><a href="http://craphound.com/context">Context</a> (essays)<br>
+<a href="http://craphound.com/walh">With a Little Help</a> (short stories)<br>
+<a href="http://craphound.com/ftw">For the Win</a> (YA novel)<br>
+<a href="http://craphound.com/makers">Makers</a> (adult novel)
+</td></tr></table></span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		
+
+<p>
+In a rare and welcome moment of sanity, the UK High Court has ruled that guy who made a snarky tweet about bombing an airport is not a criminal. The judge's <a href="http://www.judiciary.gov.uk/Resources/JCO/Documents/Judgments/chambers-v-dpp.pdf">written opinion</a> is not kind to the cops and prosecutors who spent years chasing Paul Chambers, the tweeter in question, pointing out that no one at any point believed that Chambers was serious, that no one was credibly alarmed, and that they were all, basically, total idiots. Wired UK's Mark Brown has more.
+
+<blockquote>
+<p>
+"Crap! Robin Hood airport is closed," his infamous tweet read. "You've got a week and a bit to get your shit together otherwise I am blowing the airport sky high!"
+<p>
+A week later, he was arrested by anti-terror police for making a bomb threat. In May 2010, the Doncaster magistrates court found him guilty "of sending, by means of a public electronic communications network, a message of a menacing character." He was fined and lost his job.
+<p>
+After a lengthy appeal process, Chambers has finally been acquitted. In the judgement document, the high court said, "the appeal against conviction will be allowed on the basis that this tweet did not constitute or include a message of a menacing character; we cannot usefully take this aspect of the appeal further."
+</blockquote>
+
+
+
+<p>
+<a href="http://arstechnica.com/tech-policy/2012/07/uk-high-court-overturns-conviction-for-twitter-joke/">UK High Court overturns conviction for Twitter joke</a>
+
+
+</div>
+
+  
+    <div id="ad_500">
+		  <script type="text/javascript">
+    function convosuiteLabeling(){
+			if($('#ad_500').height() > 50){
+				$('#ad_500').css('border-top', '3px solid #eee');
+				$('#ad_500').css('border-bottom', '3px solid #eee');
+				$('#ad_500').css('margin-bottom', '20px');
+				$('#ad_500_label').show();
+			}
+    }
+	  $(document).ready(function(){
+      convosuiteLabeling();
+      setTimeout('convosuiteLabeling();', 3000);
+		});
+		</script>
+		<div id="ad_500_label" style="display:none;margin-top:-25px;text-align:center;font-family: 'proxima-nova-condensed', 'Helvetica Neue', Arial, sans-serif;color: #666;">ADVERTISEMENT</div>
+		<!-- FM Convosuite 650x300 Zone -->
+		<script type='text/javascript' src='http://static.fmpub.net/zone/7234'></script>
+		<!-- FM Convosuite 650x300 Zone -->
+	  </div>
+
+
+  
+<div id="post-173800" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/apple-wont-carry-an-ebook-be.html" rel="bookmark">Apple won't carry an ebook because it mentions Amazon</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173800');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/cory_doctorow_1" title="Posts by Cory Doctorow" rel="author">Cory Doctorow</a></span> at 6:38 pm Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/apple-wont-carry-an-ebook-be.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173800').style.display='inline'" id="sharethis-trigger-173800"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173800" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Apple won't carry an ebook because it mentions Amazon - http://boingboing.net/2012/07/28/apple-wont-carry-an-ebook-be.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/apple-wont-carry-an-ebook-be.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Apple+won%27t+carry+an+ebook+because+it+mentions+Amazon: http://boingboing.net/2012/07/28/apple-wont-carry-an-ebook-be.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173800" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-77px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">Cory Doctorow</h4><p><table width="100%"><tr><td valign="top">
+Jul 26-29, Vegas <a href="http://www.defcon.org/">Defcon</a><br>
+Jul 31, San Francisco <a href="http://blog.longnow.org/02012/07/02/cory-doctorow-seminar-primer/">Long Now</a><br>
+Aug 17-20, St Petersburg <a href="http://www.fantassemblee.ru/">SF&amp;F Assembly</a> </td><td valign="top" align="right"><a href="http://craphound.com/context">Context</a> (essays)<br>
+<a href="http://craphound.com/walh">With a Little Help</a> (short stories)<br>
+<a href="http://craphound.com/ftw">For the Win</a> (YA novel)<br>
+<a href="http://craphound.com/makers">Makers</a> (adult novel)
+</td></tr></table></span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		
+<p>
+Author Holly Lisle has a series of online writing guides that she sells. One volume of this, "<a href="http://www.amazon.com/exec/obidos/ASIN/0765329085/downandoutint-20">How To Think Sideways Lesson 6: How To Discover (Or Create) Your Story’s Market</a>" was rejected by Apple's iBooks store. At first, Apple told Lisle that she wasn't allowed to have "live links" to Amazon in her books. So she removed the links and resubmitted the book, and then Apple rejected it again, telling her that they wouldn't sell her book because it mentioned Amazon, a competitor of its iBooks store.
+
+<blockquote>
+<p>
+
+<img src="http://craphound.com/images/179693636.JPG" class="bordered" align="right">
+But I also will not deal with this sort of head-up-ass behavior from a <em>distributor</em>. You don’t tell someone “The problem is the live links,” and then, when that person has complied with your change request and removed the live links, turn around and say, “No, no. The problem is the CONTENT. You can’t mention Amazon in your lesson.
+<p>
+This is not professional behavior from a professional market.
+<p>
+And cold moment of truth here—you cannot write a writing course that includes information on publishing and self-publishing and NOT mention Amazon. It’s the place where your writers are going to make about 90% of their money.
+<p>
+So I’m pulling ALL my work from the iBookstore today. I apologize to iBookstore fans. I tried. Hard.
+<p>
+But I’m done.
+<br clear="all">
+</blockquote>
+
+<a href="http://hollylisle.com/apple-made-its-decision-my-turn/?awt_l=FeLuI&#038;awt_m=JkKEsJQqZE_XgP">	Apple Made Its Decision. My Turn.
+avatar	
+</a>
+
+(<i>via <a href="http://news.ycombinator.com/">Hacker News</a></i>)
+
+
+</div>
+
+  
+
+
+  
+<div id="post-173808" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/report-of-working-3d-printed-g.html" rel="bookmark">Report of working 3D printed gun</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173808');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/cory_doctorow_1" title="Posts by Cory Doctorow" rel="author">Cory Doctorow</a></span> at 5:48 pm Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/report-of-working-3d-printed-g.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173808').style.display='inline'" id="sharethis-trigger-173808"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173808" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Report of working 3D printed gun - http://boingboing.net/2012/07/28/report-of-working-3d-printed-g.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/report-of-working-3d-printed-g.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Report+of+working+3D+printed+gun: http://boingboing.net/2012/07/28/report-of-working-3d-printed-g.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173808" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-77px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">Cory Doctorow</h4><p><table width="100%"><tr><td valign="top">
+Jul 26-29, Vegas <a href="http://www.defcon.org/">Defcon</a><br>
+Jul 31, San Francisco <a href="http://blog.longnow.org/02012/07/02/cory-doctorow-seminar-primer/">Long Now</a><br>
+Aug 17-20, St Petersburg <a href="http://www.fantassemblee.ru/">SF&amp;F Assembly</a> </td><td valign="top" align="right"><a href="http://craphound.com/context">Context</a> (essays)<br>
+<a href="http://craphound.com/walh">With a Little Help</a> (short stories)<br>
+<a href="http://craphound.com/ftw">For the Win</a> (YA novel)<br>
+<a href="http://craphound.com/makers">Makers</a> (adult novel)
+</td></tr></table></span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		
+
+
+
+
+<p>
+<img src="http://craphound.com/images/printedgun.jpg" class="bordered"><br />
+
+<em>Popular Science</em>'s  John Robb reports on a person who claims that his 3D-printed pistol can successfully fire live ammunition, though not with total reliability. The same person then went on to print a working AR-15 rifle (this is a substantial advance on <a href="http://boingboing.net/2011/09/20/3d-printed-ar-15-parts-challenge-firearm-regulation.html">last year's account</a> of a 3D printable AR-15 automatic conversion kit. This event has raised something of a crisis for <a href="http://thingiverse.com">Thingiverse</a>, the online repository for 3D printable meshes, which is contemplating whether it will host files that can be printed into "weapons." 
+
+<blockquote>
+<p>
+
+
+
+An amateur gunsmith, operating under the handle of "HaveBlue" (incidentally, "Have Blue" is the codename that was used for the prototype stealth fighter that became the Lockheed F-117), announced recently in online forums that he had successfully printed a serviceable .22 caliber pistol.
+<p>
+Despite predictions of disaster, the pistol worked. It successfully fired 200 rounds in testing.
+<p>
+HaveBlue then decided to push the limits of what was possible and use his printer to make an AR-15 rifle. To do this, he downloaded plans for an AR-15 in the Solidworks file format from a site called CNCGunsmith.com. After some small modifications to the design, he fed about $30 of ABS plastic feedstock into his late-model Stratasys printer. The result was a functional AR-15 rifle. Early testing shows that it works, although it still has some minor feed and extraction problems to be worked out. 
+</blockquote>
+
+
+
+<p>
+<a href="http://www.popsci.com/technology/article/2012-07/working-assault-rifle-made-3-d-printer"> A Working Assault Rifle Made With a 3-D Printer </a>
+
+
+</div>
+
+  
+
+
+  
+<div id="post-173797" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/record-labels-wont-share-pir.html" rel="bookmark">Record labels won't share Pirate Bay winnings with artists; they're keeping it for record companies</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173797');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/cory_doctorow_1" title="Posts by Cory Doctorow" rel="author">Cory Doctorow</a></span> at 5:35 pm Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/record-labels-wont-share-pir.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173797').style.display='inline'" id="sharethis-trigger-173797"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173797" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Record labels won't share Pirate Bay winnings with artists; they're keeping it for record companies - http://boingboing.net/2012/07/28/record-labels-wont-share-pir.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/record-labels-wont-share-pir.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Record+labels+won%27t+share+Pirate+Bay+winnings+with+artists%3B+they%27re+keeping+it+for+record+companies: http://boingboing.net/2012/07/28/record-labels-wont-share-pir.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173797" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-77px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">Cory Doctorow</h4><p><table width="100%"><tr><td valign="top">
+Jul 26-29, Vegas <a href="http://www.defcon.org/">Defcon</a><br>
+Jul 31, San Francisco <a href="http://blog.longnow.org/02012/07/02/cory-doctorow-seminar-primer/">Long Now</a><br>
+Aug 17-20, St Petersburg <a href="http://www.fantassemblee.ru/">SF&amp;F Assembly</a> </td><td valign="top" align="right"><a href="http://craphound.com/context">Context</a> (essays)<br>
+<a href="http://craphound.com/walh">With a Little Help</a> (short stories)<br>
+<a href="http://craphound.com/ftw">For the Win</a> (YA novel)<br>
+<a href="http://craphound.com/makers">Makers</a> (adult novel)
+</td></tr></table></span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		
+<p>
+The record labels that successfully sued The Pirate Bay for millions on the grounds that the network had infringed upon artists' copyrights have announced that it will not share any of the money it receives from the suit with those artists. Instead, the money will be used to bankroll more "enforcement" -- that is, salaries and fees for people who work for the industry association. From TorrentFreak:
+
+
+<blockquote>
+<p>
+
+
+According to former Pirate Bay spokesman Peter Sunde, one of the people convicted in the case, this shows who the real “thieves” are.
+<p>
+“Regarding the issue that they’ve already divvied up the loot, it’s always fun to see that they call it ‘recovered money’ (i.e. money they’ve lost) but that they’re not going to give the artists in question any of it,” Sunde told TorrentFreak.
+<p>
+“They say that people who download give money to thieves – but if someone actually ends up paying (in this case: three individuals) then it’s been paid for. So who’s the thief when they don’t give the money to the artists?”
+<p>
+According to Sunde the news doesn’t come as a surprise.
+<p>
+“As far as I know, no money ever won in a lawsuit by IFPI or the RIAA has even gone to any actual artist,” Sunde says. “It’s more likely the money will be spent on cocaine than the artists that they’re ‘defending’.”
+</blockquote>
+
+
+<p>
+<a href="https://torrentfreak.com/pirate-bay-loot-with-artists-120728/?utm_source=feedburner&#038;utm_medium=feed&#038;utm_campaign=Feed%3A+Torrentfreak+%28Torrentfreak%29">
+Music Labels Won’t Share Pirate Bay Loot With Artists
+</a>
+
+
+</div>
+
+  
+
+
+
+	<div id="post-173789" class="post short">
+		<h2 class="shortHeadline"><a href="http://boingboing.net/2012/07/28/astronaut-sally-rides-partne.html" rel="bookmark">Astronaut Sally Ride's partner won't receive government death benefits. Thanks, homophobes. </a></h2> 
+		<a href='http://ideas.time.com/2012/07/27/domestic-double-standard-what-about-sally-rides-partner/'>Sally Kohn at TIME, writing about</a> the female <a href="http://boingboing.net/2012/07/24/sally-rides-sister-on-the-q.html">domestic partner</a> of Sally Ride, physicist and <a href="http://boingboing.net/2012/07/23/sally-ride-first-american-wom.html">first American woman in space</a>: "Under federal law, Ride’s domestic partner of 27 years will not receive death benefits or Social Security payments. Is that any way to treat a hero?"  It's an injustice, but it's not NASA's fault. Nor, of course, is the injustice limited to the case of Sally Ride and the woman who loved her. This is all <a href="http://en.wikipedia.org/wiki/Defense_of_Marriage_Act">DOMA</a>. <em>(via Steve Silberman)</em> <span style="color:silver;">&mdash; <a style="color:gray;" href="" rel="bookmark">Xeni</a></span> 	</div>
+
+  
+
+
+  
+<div id="post-173740" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/poop-strong-young-cancer-pati.html" rel="bookmark">Poop Strong: Cancer patient whose costs exceeded insurance cap wins victory, via Twitter</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173740');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 3:22 pm Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/poop-strong-young-cancer-pati.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173740').style.display='inline'" id="sharethis-trigger-173740"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173740" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Poop Strong: Cancer patient whose costs exceeded insurance cap wins victory, via Twitter - http://boingboing.net/2012/07/28/poop-strong-young-cancer-pati.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/poop-strong-young-cancer-pati.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Poop+Strong%3A+Cancer+patient+whose+costs+exceeded+insurance+cap+wins+victory%2C+via+Twitter: http://boingboing.net/2012/07/28/poop-strong-young-cancer-pati.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173740" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p>
+<img src="http://boingboing.net/wp-content/uploads/2012/07/arijit.jpg" alt="" title="arijit" width="600" height="399" class="bordered aligncenter size-full wp-image-173755" />
+</p><p><img src="http://boingboing.net/wp-content/uploads/2012/07/300.jpg" alt="" title="300" width="297" height="300" class="bordered alignleft size-full wp-image-173756" /></p><p><a href="https://twitter.com/poop_strong">Arijit</a>, 31, is graduate student in Arizona who was diagnosed about a year and a half ago with <a href="http://stageivhope.wordpress.com/">stage IV colon cancer</a>. He endured multiple surgeries, and grueling rounds of chemotherapy. Then, in February, 2012, the cost of his treatment exceeded the lifetime limit on his graduate student health plan, which is managed by Aetna. </p><p>His coverage was terminated. His cancer was not.
+
+</p><p>
+
+He launched what we cancer patients sometimes refer to as <a href="http://boingboing.net/2012/04/18/when-life-hands-you-cancer-ma.html">an internet lemonade stand</a>:  a site called <a href="http://poopstrong.org/">Poop Strong</a> (a light-hearted parody of "Livestrong"). At <a href="http://poopstrong.org/">poopstrong.org</a>, he invited well-wishers to make a donation or buy schwag, with all proceeds going to his healthcare. 
+</p><p>
+
+But, big news today, as his pal Kirk Caron tells Boing Boing,
+</p><p>
+
+<blockquote><p>
+In the six months between when he was dropped and when he'll be picked up by another student health plan, he's been looking at well over $100K in medical bills for his treatments. In addition to updates about his own condition and the state of Poop Strong, Arijit's been tweeting (naturally) about the state of health insurance, and recently, Aetna got involved. The conversation (as Twitter convos tend to do) sort of spirals out from the main thread between Arijit and Aetna. </p><p></p></blockquote>
+
+
+</p><p>
+That's an understatement! Arijit ended up debating directly with the CEO of Aetna, Mark T. Bertolini. The <a href="http://www.urbandictionary.com/define.php?term=tl%3Bdr">tl;dr</a>: <strong>Aetna, and Mr. Bertolini, agreed in the end to cover the full extent of bills that accrued since Arijit was dropped from insurance (about  $118,000).</strong> </p><p>
+
+"The system is broken," <a href="https://twitter.com/mtbert/status/228602871036387328">said Bertolini</a>. "I really am trying to fix it."
+
+</p><p>Arijit is redirecting  all of the donations he received the <a href="http://www.azcc.arizona.edu/">University of Arizona Cancer Center</a> Patient Assistance Fund and <a href="http://www.twccaz.org/">The Wellness Community (Arizona)</a>, to directly assist other people with cancer who cannot pay for the life-saving medical treatments they need. 
+</p><p>
+
+I spoke with Arijit today, and will be publishing a transcript/audio of our conversation soon. He's a really cool guy, and he has some insights from this experience that I think everyone should hear. It looks like Arijit is covered, for now, but the system is still broken. The debate over health care costs has become a political football&mdash;but <a href="http://boingboing.net/2011/12/09/the-diagnosis.html">for people like me</a> and Arijit and everyone else in America who isn't in the 1%, health care costs are literally a matter of life and death. No one should suffer or die because they can't afford medical treatment.  It really is that simple.
+</p><p>
+Arijit's friend <a href="http://www.jenwang.com">Jen Wang</a> created <a href="http://storify.com/jen_wang/arijit-and-aetna">a Storify of the twitter exchange between Arijit, Aetna's PR reps, and Aetna's CEO</a>. You can read this below.</p><p> <a href="http://boingboing.net/2012/07/28/poop-strong-young-cancer-pati.html#more-173740" class="more-link"><p style="margin-top:-10px"><strong>Read the rest</strong></p></a></p>
+</div>
+
+  
+
+
+  
+<div id="post-173723" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/enthralling-books-mysteries.html" rel="bookmark">Enthralling Books: Mysteries, by Knut Hamsun</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173723');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/larsmartinson" title="Posts by Lars Martinson" rel="author">Lars Martinson</a></span> at 2:23 pm Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/enthralling-books-mysteries.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173723').style.display='inline'" id="sharethis-trigger-173723"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173723" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Enthralling Books: Mysteries, by Knut Hamsun - http://boingboing.net/2012/07/28/enthralling-books-mysteries.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/enthralling-books-mysteries.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Enthralling+Books%3A+Mysteries%2C+by+Knut+Hamsun: http://boingboing.net/2012/07/28/enthralling-books-mysteries.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173723" class="pop">	  
+	  	  		<span class=""><h4 class="uppercase">larsmartinson</h4><p><a href="http://larsmartinson.com/">Lars Martinson</a> lives in Kameoka, Japan. Collections of his digital comics are available on the <a href="http://itunes.apple.com/us/artist/id516864247">iBookstore</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><a href="http://boingboing.net/tag/enthralling-books"><img src="http://boingboing.net/wp-content/uploads/2012/07/enthrallingbooks.jpg"  border="0" align = "left" /></a><em>This is one in a series of essays about enthralling books. I asked my friends and colleagues to recommend a book that took over their life. I told them the book didn't have to be a literary masterpiece. The only thing that mattered was that the book captivated them and carried them into the world within its pages, making them ignore the world around them. I asked: "Did you shirk responsibilities so you could read it? Did you call in sick? Did you read it until dawn? That's the book I want you to tell us about!" See all the essays in the Enthralling Book series <a href="http://boingboing.net/tag/enthralling-books">here</a>. -- Mark</em></p>
+
+<a href="http://www.amazon.com/exec/obidos/ASIN/0374530297/boingboing"><img src="http://boingboing.net/wp-content/uploads/2012/07/NewImage73.png" alt="NewImage" title="NewImage.png" border="0" width="250" height="374" align = "right" /></a>
+
+<p><strong><em>Mysteries</em>, by Knut Hamsun</strong></p>
+
+
+<p>One night in the autumn of 1882, Knut Hamsun's roommate returned home to find a knife, a cigar, and a note laid out on the table for him.</p>
+
+<p>The note read:</p>
+
+<blockquote><p>Smoke the cigar and stick the knife into my heart.</p>
+<p>Do it quickly, decisively and as a friend, if you value my affection.</p>
+<p>Signed Knut H.
+</p>
+<p>P.S. This note will be your defense in court.<super>*</super></p></blockquote>
+
+<p>Hamsun lay asleep in his bed, underneath an angel of death that he had painted on the ceiling.</p>
+
+<p>What intrigues me about this... prank? is that it somehow manages to come off as both playful and disturbing at the same time. This quality is present in much of Hamsun's early work, particularly in his second novel, the aptly titled <a href="http://www.amazon.com/exec/obidos/ASIN/0374530297/boingboing"><em>Mysteries</em></a>.</p>
+
+<p><em>Mysteries</em> doesn't have much in the way of a story. The very first paragraph sums up the plot in a couple dozen words: an eccentric stranger named Johan Nagel shows up in a small Norwegian coastal town, his odd behavior causes a stir, and then he disappears just as suddenly as he came. The writing style is similarly sparse, consisting of brief, straightforward sentences.</p>
+
+<p>But this apparent simplicity conceals a murkier core. I've read <em>Mysteries</em> several times in multiple translations, and it always manages to captivate me. There's so much to chew on: from Nagel's deliberate, self-defeating behavior, to the haunting, visceral anecdotes that he relates to the perplexed townspeople, to all the enticing details and the questions they raise. What's the deal with the vial of poison that Nagel carries around? Who is the veiled woman who visits him halfway through the book? And why is it so important that he be wearing his iron ring when the clock strikes twelve each night?</p>
+
+<p>The title of the book being what it is, it probably won't surprise you to know that most of these questions are left unanswered. But rather than being frustrating, the loose ends are a big part of the book's charm. They linger with me for days after I reach the last page and tempt me to start over from the beginning, so I can be shocked and delighted by Nagel's antics all over again.</p>
+
+<p><super>*</super>Cigar/knife anecdote adapted from Ingar Sletten Kolloen's <a href=""><em>Knut Hamsun: Dreamer And Dissenter</em></a>
+</p>
+<p>Buy <a href="http://www.amazon.com/exec/obidos/ASIN/0374530297/boingboing">Mysteries</a> on Amazon</p>
+</div>
+
+  
+
+
+  
+<div id="post-173688" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/olympics-ceremony-honors-tim-b.html" rel="bookmark">Olympics 2012 opening ceremony honors Tim Berners-Lee, but NBC anchors don't know who he is</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173688');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 9:40 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/olympics-ceremony-honors-tim-b.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173688').style.display='inline'" id="sharethis-trigger-173688"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173688" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Olympics 2012 opening ceremony honors Tim Berners-Lee, but NBC anchors don't know who he is - http://boingboing.net/2012/07/28/olympics-ceremony-honors-tim-b.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/olympics-ceremony-honors-tim-b.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Olympics+2012+opening+ceremony+honors+Tim+Berners-Lee%2C+but+NBC+anchors+don%27t+know+who+he+is: http://boingboing.net/2012/07/28/olympics-ceremony-honors-tim-b.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173688" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><div align="center"><img src="http://boingboing.net/wp-content/uploads/2012/07/tim-berners-lee-ccastig.jpg" alt="" title="tim-berners-lee-ccastig" width="425"  class="bordered" /></div></p><p>
+"Tim being Englishman <a href="http://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a>... if you haven't heard of him, [laugh], we haven't either." &mdash; Meredith Vieira, derping out with Matt Lauer during the opening ceremonies of the 2012 Olympics.</p><p>
+
+Meredith, Matt: You guys. You could look it up on the <em>World Wide Web</em>.</p><p>
+
+<a href="http://ethanklapper.tumblr.com/post/28164455886/meredith-vieira-doesnt-know-who-tim-berners-lee">Video here</a>, courtesy of Ethan Klapper.</p><p> <a href="http://boingboing.net/2012/07/28/olympics-ceremony-honors-tim-b.html#more-173688" class="more-link"><p style="margin-top:-10px"><strong>Read the rest</strong></p></a></p>
+</div>
+
+  
+
+
+  
+<div id="post-173686" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/what-do-you-think-of-the-new-a.html" rel="bookmark">What do you think of the new Apple "genius" ads running during Olympics 2012 TV coverage?</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173686');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 9:37 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/what-do-you-think-of-the-new-a.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173686').style.display='inline'" id="sharethis-trigger-173686"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173686" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=What do you think of the new Apple "genius" ads running during Olympics 2012 TV coverage? - http://boingboing.net/2012/07/28/what-do-you-think-of-the-new-a.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/what-do-you-think-of-the-new-a.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=What+do+you+think+of+the+new+Apple+%22genius%22+ads+running+during+Olympics+2012+TV+coverage%3F: http://boingboing.net/2012/07/28/what-do-you-think-of-the-new-a.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173686" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><object width="600" height="338"><param name="movie" value="http://www.youtube-nocookie.com/v/jXTzzxiCfPw?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube-nocookie.com/v/jXTzzxiCfPw?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="600" height="338" allowscriptaccess="always" allowfullscreen="true"></embed></object><p>
+The internets are a-flutter <a href="http://www.businessinsider.com/here-are-apples-dreadful-new-ads-for-the-mac-2012-7">with critics of these new Apple ads</a>. I'm not crazy about them. They feel like they're for Best Buy or something, not Apple. I do wish they'd just bring back John Hodgman. <em>(via @<a href="https://twitter.com/nytjim/status/229196446757433345">nytjim</a>)</em>
+</div>
+
+  
+
+
+  
+<div id="post-173678" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/sick-of-the-olympics-already.html" rel="bookmark">Sick of the Olympics already? Olwimpics browser blocker is your new best friend.</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173678');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 9:28 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/sick-of-the-olympics-already.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173678').style.display='inline'" id="sharethis-trigger-173678"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173678" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Sick of the Olympics already? Olwimpics browser blocker is your new best friend. - http://boingboing.net/2012/07/28/sick-of-the-olympics-already.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/sick-of-the-olympics-already.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Sick+of+the+Olympics+already%3F+Olwimpics+browser+blocker+is+your+new+best+friend.: http://boingboing.net/2012/07/28/sick-of-the-olympics-already.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173678" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><img src="http://boingboing.net/wp-content/uploads/2012/07/olwimpics_fat.jpg" alt="" title="olwimpics_fat" width="585" height="282" class="aligncenter size-full wp-image-173680" /><p>Greg Leuch at fffffat unveils the <a href='http://fffff.at/olwimpics/'>Olwimpics content blocker</a> for Chrome, Firefox, and Safari. Sweet Jesus, thank you. <em>(via @<a href="https://twitter.com/gautamramdurai/status/229250477928374272">gautamramdurai</a>)</em>
+</div>
+
+  
+
+
+  
+<div id="post-173673" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/a-message-for-the-media-from-a.html" rel="bookmark">A message for the media from an Aurora shooting survivor: "Give victims and survivors their space"</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173673');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 9:22 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/a-message-for-the-media-from-a.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173673').style.display='inline'" id="sharethis-trigger-173673"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173673" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=A message for the media from an Aurora shooting survivor: "Give victims and survivors their space" - http://boingboing.net/2012/07/28/a-message-for-the-media-from-a.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/a-message-for-the-media-from-a.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=A+message+for+the+media+from+an+Aurora+shooting+survivor%3A+%22Give+victims+and+survivors+their+space%22: http://boingboing.net/2012/07/28/a-message-for-the-media-from-a.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173673" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><img src="http://boingboing.net/wp-content/uploads/2012/07/1409408.jpg" alt="" title="1409408" width="600" height="440" class="bordered aligncenter size-full wp-image-173674" /><p>"Student, writer, and self-identifying geek" A.J. Focht, <a href="http://suicidegirls.com/news/culture/25194/Back-Row-Perspective-Part-1-An-Aurora-Theater-Survivors-Message-to-the-Media/">writing on a Suicide Girls blog,</a> talks about the experience of surviving the recent mass shooting at "The Dark Knight Rises" premiere at an Aurora, CO movie theater&mdash; and, how a friend and fellow survivor was hounded by content-hungry television producers:
+
+<p>
+
+<blockquote> <p><img src="http://boingboing.net/wp-content/uploads/2012/07/1409407.jpg" alt="" title="1409407" width="200"  class="alignleft size-full wp-image-173675" /><p>With only a small charge left in her phone one of the members of my group thought it best to send out a blanket distress beacon via Twitter so she could conserve her battery to call her parents and a ride home. Caitlin tweeted from her account @dingos8myTARDIS informing her family and friends of the chaos and that she was physically alright. Her tweets were some of the first online, and within the hour BBC, CNN, and others were broadcasting her messages on the news. The hundreds of media outlets that contacted her throughout the night were unexpected, but we could understand they were just trying to do their jobs. Once we had been released, Caitlin, not wanting the mass media attention, released these tweets:
+<p><em>
+dingos8myTARDIS: To the media: I was tweeting earlier because my phone was on 10%batt &#038; I needed to let people know I was okay. I am (in) no shape for interviews.
+<p>
+dingos8myTARDIS: To rephrase: I have no interest in interviews at this time. I was merely sending an emergency beacon.
+</em>
+<p>
+
+Despite her requesting to be left alone, she was perpetually bombarded by yet more media requests via Twitter from outlets including FOX News and The Huffington Post. As if the mass attention on Twitter was not enough, other news networks took it upon themselves to get her phone number and start calling her. 
+<p>
+While we all sat anxiously awaiting information on the MIA member of our group, phones and email notifications continued go off till all our phones had died. Before even our families and friends had a chance to check in, the overzealous reporters were all but knocking on our doors. Right after our group finally learned our missing member didn't make it, Caitlin's phone began to ring; It was the Today Show on the other end requesting an interview about him. She told them off and asked them not to contact her again. However, her pleas didn't stop them from calling again the next morning, still trying to get an interview.
+<p></blockquote><p>
+
+
+
+Focht is among those who wish that media would "stop showing" images of the suspected killer. There's a balance for news outlets to strike in cases like this; there's informing, and there's exploitation. For the record, we at Boing Boing have refrained from publishing the image, because there's no real need for us to.<p>
+
+Read the rest: "<a href="http://suicidegirls.com/news/culture/25194/Back-Row-Perspective-Part-1-An-Aurora-Theater-Survivors-Message-to-the-Media/">Back Row Perspective Part 1: An Aurora Theater Survivor’s Message to the Media</a>." <p>
+
+There's a second piece, well worth reading, with <a href="http://suicidegirls.com/news/culture/25196/Back-Row-Perspective-Part-2-An-Aurora-Theater-Survivors-Message-To-The-Politicians/">words for the politicians who seek to capitalize on the massacre</a>.
+</div>
+
+  
+
+
+
+	<div id="post-173671" class="post short">
+		<h2 class="shortHeadline"><a href="http://boingboing.net/2012/07/28/mitt-romney-goes-to-paris-a-p.html" rel="bookmark">Mitt Romney Goes to Paris (a poem) </a></h2> 
+		"It’s an honor to be welcomed by the President of France/Who would have been that World Bank guy if he’d kept on his pants"&mdash;<a href="http://jerryadlersnewsverse.com/2012/07/28/mitt-romney-goes-to-paris/">Jerry Adler's poetic interpretation</a> of presidential candidate Mitt Romney's visit to the capital of France. <em>(via <a href="https://twitter.com/stevenlevy/status/229246647312453632">Steven Levy</a>)</em> <span style="color:silver;">&mdash; <a style="color:gray;" href="" rel="bookmark">Xeni</a></span> 	</div>
+
+  
+
+
+  
+<div id="post-173669" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/yelp-reviews-read-by-real-act.html" rel="bookmark">Yelp reviews, read by real actors (video)</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173669');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 9:06 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/yelp-reviews-read-by-real-act.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173669').style.display='inline'" id="sharethis-trigger-173669"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173669" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Yelp reviews, read by real actors (video) - http://boingboing.net/2012/07/28/yelp-reviews-read-by-real-act.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/yelp-reviews-read-by-real-act.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Yelp+reviews%2C+read+by+real+actors+%28video%29: http://boingboing.net/2012/07/28/yelp-reviews-read-by-real-act.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173669" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><object width="600" height="338"><param name="movie" value="http://www.youtube-nocookie.com/v/QEdXhH97Z7E?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube-nocookie.com/v/QEdXhH97Z7E?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="600" height="338" allowscriptaccess="always" allowfullscreen="true"></embed></object><p>[<a href="http://youtu.be/QEdXhH97Z7E">Video Link</a>]  <a href="http://www.imdb.com/name/nm0456023/">Chris Kipiniak</a>, who is a working actor, puts all those many years of training and practice to work in a dramatic interpretation of an online restaurant <a href="http://www.yelp.com/user_details?userid=pMBkFMP3vvylkCqptoa3KA">review for the Stratford Diner</a>. This appears to be the first in a series, to which you can <a href="http://www.youtube.com/user/gottakidtofeed?feature=watch">subscribe</a>. <em> (video by <a href="http://www.youtube.com/user/gottakidtofeed">Joe Plummer</a>; thanks <a href="http://joesabia.co">Joe Sabia</a>!)</em>
+</div>
+
+  
+
+
+  
+<div id="post-173664" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/caturday-photo.html" rel="bookmark">Caturday (photo)</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173664');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/xeni_jardin" title="Posts by Xeni Jardin" rel="author">Xeni Jardin</a></span> at 8:54 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/caturday-photo.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173664').style.display='inline'" id="sharethis-trigger-173664"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173664" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Caturday (photo) - http://boingboing.net/2012/07/28/caturday-photo.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/caturday-photo.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Caturday+%28photo%29: http://boingboing.net/2012/07/28/caturday-photo.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173664" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-229px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">xeni jardin</h4><p>Boing Boing partner, <a href="http://youtube.com/boingboingvideo">Boing Boing Video</a> host and executive producer. <a href="http://xeni.net">Xeni.net</a>, <a href="http://twitter.com/xeni">Twitter</a>, <a href="https://plus.google.com/107968787521028284191/posts">Google+</a>. Email: <a href="mailto:xeni@xeni.net">xeni@xeni.net</a>.</span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><img src="http://boingboing.net/wp-content/uploads/2012/07/7652010142_245f1d7b3d_h.jpg" alt="" title="7652010142_245f1d7b3d_h" width="970" height="644" class="bordered aligncenter size-full wp-image-173665" /><p><a href="https://plus.google.com/110205247467925064828/posts">Muaz Mohamed</a> shot <a href="http://www.flickr.com/photos/photedemuaz/7652010142/in/pool-41894168726@N01/">this lovely photo</a> of a kitteh wishing you a happy Caturday, with a high-five paw. Shared in the <a href="http://www.flickr.com/groups/boingboing/pool/">Boing Boing Flickr pool</a>.
+</div>
+
+  
+
+
+  
+<div id="post-173662" class="post">
+
+	<h2 class="headline"><a href="http://boingboing.net/2012/07/28/why-one-mutation-can-protect-p.html" rel="bookmark">Why one mutation can protect people from HIV</a></h2>
+	
+	
+	<p class="byline">
+	
+	By <span onmouseover="showAuthor('authorpopup-173662');" onmouseout="dontshowAuthor()"><a href="http://boingboing.net/author/maggie_koerth-baker" title="Posts by Maggie Koerth-Baker" rel="author">Maggie Koerth-Baker</a></span> at 7:26 am Saturday, Jul 28 
+	
+	&bull; <span><a href="http://boingboing.net/2012/07/28/why-one-mutation-can-protect-p.html#disqus_thread">Comments</a></span> &bull; <span onMouseOver="document.getElementById('sharethis-173662').style.display='inline'" id="sharethis-trigger-173662"><a href="javascript:void(0)">Share</a></span>
+	
+  		<span id="sharethis-173662" class="sharingbox">
+	
+		<span class="emailDiv">
+			<a href="mailto:type%20email%20address%20here?subject=Shared%20from%20Boing Boing&body=Why one mutation can protect people from HIV - http://boingboing.net/2012/07/28/why-one-mutation-can-protect-p.html" title="Email to a friend/colleague" target="_blank">
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-60px;">
+			</a>
+		</span>
+				
+		<span class="fbDiv">
+			<a href="http://www.facebook.com/sharer.php?u=http://boingboing.net/2012/07/28/why-one-mutation-can-protect-p.html" target='_blank'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-42px;">
+			</a>
+		</span>
+				
+		<span class="twitterDiv">
+			<a href="http://twitter.com/home?status=Why+one+mutation+can+protect+people+from+HIV: http://boingboing.net/2012/07/28/why-one-mutation-can-protect-p.html" target='_blank' title='Click to Tweet this page'>
+			<img src="http://boingboing.net/wp-content/themes/bb/sundries/share.png" style="margin-left:-27px;">
+			</a>
+		</span>				
+	</span>
+	
+	 </p>
+
+		<div id="authorpopup-173662" class="pop">	  
+	  	  		<span class="portrait75" style="">
+			<img style="margin-left:-381px;max-width:1364px;height:125px;" src="http://boingboing.net/wp-content/themes/bb/sundries/portraits.png">
+		</span>		
+				<span class=""><h4 class="uppercase">maggiekb</h4><p>I do <a href="https://twitter.com/#!/maggiekb1">the Twitter</a>, the <a href="http://onplus.me/maggiekb">Google+</a>, and (to a much lesser extent) <a href="https://www.facebook.com/pages/Maggie-Koerth-Baker/183813805021299">the Facebook</a>.
+
+<p><strong>Books</strong>
+<br>• <a href="http://www.amazon.com/gp/product/0470876255/ref=as_li_ss_tl?ie=UTF8&amp;tag=boingbonet-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0470876255">Before the Lights Go Out: Conquering the Energy Crisis Before It Conquers Us</a><img src="http://www.assoc-amazon.com/e/ir?t=boingbonet-20&amp;l=as2&amp;o=1&amp;a=0470876255" width="1" height="1" border="0" alt="" style="border:none !important;margin:0px !important" />, my book about the future of energy in the United States, will be published April 10th.</br></p>
+
+<p><strong>Upcoming Appearances</strong>
+<br>• <strong>April 2</strong> at <a href="http://bostonskeptics.com/2012/03/skeptics-in-the-pub-with-maggie-koerth-baker/">Skeptics in the Pub, Boston, Mass.</a>— 7:00 pm at Tommy Doyle's in Harvard Square. <a href="http://bostonskeptics.com/2012/03/skeptics-in-the-pub-with-maggie-koerth-baker/">Please RSVP.</a>
+<br>•<strong>April 4</strong> at MIT: "Shedding Light, Online", a discussion about how blogging and a dynamic audience helped shape my book, Before the Lights Go Out—4:00 pm in Maseeh Hall. <a href="http://maseeh.mit.edu/expressions">Please RSVP.</a>
+<br>&bull; April 6 at Carnegie Mellon University: More details to come
+<br>• <strong>April 9-13</strong> at University of Colorado, Boulder: <a href="www.colorado.edu/cwa">64th Annual Conference on World Affairs</a>
+<br>• <strong>April 10</strong> at Colorado State University, Fort Collins: "Putting the Fun Back in Infrastructure"—<a href="http://sustainability.colostate.edu/content/future-electric-system-koerth-baker">3:30 pm in the Rocky Mountain Innosphere.</a>
+<br>&bull; April 19 at The Bakken Museum in Minneapolis: <a href="http://www.maggiekb.com/book-launch-party-for-before-the-lights-go-out-april-19th-in-minneapolis/">Book Launch Party! </a>Come enjoy snacks, a presentation by me, and some fun with the Bakken's Leyden jar. 
+<br>• <strong>April 21</strong> at Science Museum of Minnesota, St. Paul: Earth Day Tweetup event with Will Steger and Sean Otto—events run 10:00 am to 2:00 pm.
+<br>• <strong>May 2</strong> at University of California, Berkeley: "Putting the Fun Back in Infrastructure"—6:00 pm, location TBA.
+<br>• <strong>May 3</strong> at the American Institute of Architects, San Francisco Chapter—Lunchtime lecture, time and location TBA.
+<br>• <strong>May 3</strong> at Barnes and Noble, El Cerrito, Cali.—7:00 pm.
+<br>• <strong>May 30</strong> in New York City—Panel on local and DIY energy with the New America Foundation
+<br>• <strong>June 22-25</strong> in Aspen, Colorado: <a href="http://www.aspenenvironment.org/">Aspen Environment Forum</a>
+<br>• <strong>July 5-8</strong> at <a href="http://www.convergence-con.org">CONvergence in Minneapolis, Minn.</a>—exact times and dates TBA</br></p></span>
+	</div>
+	<!-- IMAGE or EMBED from custom fields -->		
+		
+		<p><a href="http://boingboing.net/wp-content/uploads/2012/07/Picture-1.png"><img src="http://boingboing.net/wp-content/uploads/2012/07/Picture-1.png" alt="" title="Picture 1" width="570" height="341" class="aligncenter size-full wp-image-173660" /></a></p>
+
+<p>We've talked here before about the importance of the protein CCR5 in HIV/AIDS treatment research. CCR5 is a protein on the surface of immune cells. Some people have a genetic mutation, called Delta-32, which alters how that protein works, how often it appears, or changes its structure. People with the mutation have immunity to some strains of HIV, the virus that causes AIDS.</p>
+
+<p>CCR5 is the key to the Berlin Patient&mdash;Timothy Ray Brown&mdash;who, until recently, was the only person to ever be cured of AIDS. Brown received bone marrow transplants from people who had the Delta-32 mutation. His body has been HIV-free for five years. And, last week, researchers announced that two other people successfully received the same treatment.</p>
+
+<p>But here's the thing, until today, I didn't totally understand how the connection between CCR5, Delta-32, and HIV worked. There's a story (and some great digital illustrations) on NPR's Shots blog that makes the situation much more clear. HIV, apparently, have little spikes all over its surface. These spikes are how the virus injects itself into cells. </p>
+
+<blockquote>
+<p>When it bumps into a T cell, a finger-like projection on the cell's surface, called CCR5, pushes down on the spike. This interaction pops open the HIV and releases the infectious genes into the cell. A gene therapy could protect T cells by inactivating the CCR5 gene.</p></blockquote>
+
+<p>Great "A-ha!" moment for me. Read the rest of the story and look at the illustrations. It'll make some thing make a lot more sense.</p>
+
+<p><a href="http://www.npr.org/blogs/health/2012/07/16/156846209/how-hiv-hijacks-the-immune-system">Read the rest at NPR's Shots blog</a></p>
+
+<p><strong>PREVIOUSLY:</strong>
+<br /><a href="http://boingboing.net/2010/12/17/if-aids-has-been-cur.html">If AIDS Has Been Cured, Why is the Victory Party So Small?</a>
+<br /><a href="http://boingboing.net/2012/02/19/aids-research-done-by-17-year.html">AIDS Research Done by 17-Year-Olds</a></br></p>
+</div>
+
+</i></b></blockquote></em></strong>
+
+<div id="nextprev">
+<h2>&nbsp;<a href="http://boingboing.net/page/2" >Older Entries</a></h2>
+</div>
+
+<div style="text-align:center;margin:25px 0;">
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2170174688585464";
+/* Footer Ads */
+google_ad_slot = "5261133376";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div><div style="clear:both;"></div>
+
+
+
+<div id="debugger"></div>
+
+<!-- Sitewide javascript -->
+<script type="text/javascript" src="http://boingboing.net/wp-content/themes/bb/boingboing.js?v=6"></script>
+<!-- JK Nav by Yu-Jie Lin -->
+<script src="http://boingboing.net/wp-content/themes/bb/jquery.jknav.min.js?v=1"></script>
+<!-- Infinite Scroll -->
+<script type="text/javascript" src="http://boingboing.net/wp-content/themes/bb/infinitescroll.init.js?v=7"> </script>
+
+<!-- Google Plus -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+<!-- Disqus javascript -->
+<script type="text/javascript">
+    var disqus_shortname = 'boingboing'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
+<!-- Analytics-->
+<!-- FM Tracking Pixel -->
+<script type='text/javascript' src='http://static-cf.fmpub.net/site/boingboing'></script>
+<!-- FM Tracking Pixel -->
+
+<!-- Mint internal analytics include -->
+<script src="http://mint.boingboing.net/?js" type="text/javascript"></script>
+
+<!-- Google Analytics include -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3839311-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- end Google Analytics include -->
+
+<!-- Begin Callisto Analytics -->
+  <script src="//assets.callisto.fm/code/v2/callisto.min.js"></script>
+  <script src="//assets.callisto.fm/code/v2/autodetect.callisto.min.js"></script>
+  <script>
+    Callisto.AutoDetect(['boingboing.net'], { live: true });
+  </script>
+<!-- End Callisto Analytics -->
+<!-- Ads -->
+<div id="ads">
+
+	<!-- FM AD SKIN Zone -->
+<!--	<script type='text/javascript' src='http://static-cf.fmpub.net/zone/3992'></script> -->
+	<!-- FM AD SKIN Zone -->
+
+</div>
+
+
+</body>
+</html>
+<!-- Dynamic page generated in 0.331 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-07-29 08:43:53 -->
+<!-- Compression = gzip -->

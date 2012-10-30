@@ -1,0 +1,57 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-07-30 06:55:26.570789" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://lkjs.cn" type="URI" id="maec:thug:obj:3">
+                    <Internet_Object_Attributes>
+                        <URI>http://lkjs.cn</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.6</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://lkjs.cn (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:6">
+            <Description>
+                <Text>[HTTP] URL: http://lkjs.cn/js29_2.swf (Status: 200, Referrer: http://lkjs.cn)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:7" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:9">
+            <Description>
+                <Text>[HTTP] URL: http://lkjs.cn/js29_2.swf (Status: 200, Referrer: http://lkjs.cn)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:10" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools>
+        <Object_Pool>
+            <Object id="maec:thug:obj:8">
+                <File_System_Object_Attributes>
+                    <Hashes>
+                        <Hash type="sha1">
+                            <Hash_Value>a94e267d89595a7924c864c371be8c1000b93d92</Hash_Value>
+                        </Hash>
+                        <Hash type="md5">
+                            <Hash_Value>8e6b288a2656ef59821da480c254a33a</Hash_Value>
+                        </Hash>
+                    </Hashes>
+                    <File_Type type="SWF"/>
+                </File_System_Object_Attributes>
+            </Object>
+        </Object_Pool>
+    </Pools>
+</MAEC_Bundle>

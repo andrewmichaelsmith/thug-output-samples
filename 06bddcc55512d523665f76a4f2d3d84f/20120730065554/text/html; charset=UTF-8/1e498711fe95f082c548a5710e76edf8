@@ -1,0 +1,44 @@
+<!--
+	top.location="http://pearch.net/?fp=BLtji%2FKBsDm1Rk3MYhMzhCARkaFb47B%2FuO46pXrplpEz2aOfgnU30XCVyCyUnv3Q7F6TmVZGI%2BVleFZEgxYxYw%3D%3D&prvtof=2QPC9IYgRI1EVYfHQBoTTY2SZQTVK%2BusS%2BEcN52sYY0%3D&poru=JGjrTWMv6dY8ZyYDsd614x%2FPXj8iMo8AhMSPSmQd3w0PlU%2Ft0BhNjkHF0AK%2BXYkt&cifr=1&7=";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://pearch.net/?fp=BLtji%2FKBsDm1Rk3MYhMzhCARkaFb47B%2FuO46pXrplpEz2aOfgnU30XCVyCyUnv3Q7F6TmVZGI%2BVleFZEgxYxYw%3D%3D&prvtof=iECpxx1YG0gr119M9qVY7bnidemVa3XloDgUDs1KiCM%3D&poru=KswMsPEJ7fyCzLjzh2NsvwH%2FPi%2BSTaRVZ313OQQTzs5%2B9g5LREaGWbDWDFWW5FiU&cifr=1&7=";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://pearch.net/?fp=BLtji%2FKBsDm1Rk3MYhMzhCARkaFb47B%2FuO46pXrplpEz2aOfgnU30XCVyCyUnv3Q7F6TmVZGI%2BVleFZEgxYxYw%3D%3D&prvtof=jGuzGdgL%2FTSMsJ2%2FVQ%2Fg%2BErBnfZ%2Bag6G8kPly4tnyrM%3D&poru=BM9U7UYURH3262Guv4lPcx4JX3KQTEs1JeOoZ%2FjDKtjISvsNPRORCKd1SK%2BrVE5v&7=">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://pearch.net/?fp=BLtji%2FKBsDm1Rk3MYhMzhCARkaFb47B%2FuO46pXrplpEz2aOfgnU30XCVyCyUnv3Q7F6TmVZGI%2BVleFZEgxYxYw%3D%3D&prvtof=lRiZxwwo2fe8vDo%2B5ZAFjYI97iXR%2FbQHx41CLPf8H%2F8%3D&poru=3beX2issJhJTGxMejWKAzbGeMZUOirAM8zwngpoxFfjAEdEZAaWu2mH5EBB%2F3jUg&7=">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->
