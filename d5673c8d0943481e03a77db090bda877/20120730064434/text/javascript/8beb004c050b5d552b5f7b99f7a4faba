@@ -1,6 +1,0 @@
-/* abw version 1.0
- * Copyright (c) 2010 Streamates Limited. All rights reserved.
- * For use only by Streamates Limited and its affiliates.
- * http://www.streamate.com/
- */
-var abw={_CONF:{bTestMode:false,aTargets:[]},_exec:function(){for(var b=0;b<abw._CONF.aTargets.length;b++){var a=abw._CONF.aTargets[b];if(abw._CONF.bTestMode||abw._isTargetBlocked(b,a)){abw._replace(b,a)}}},_isMozBound:function(a){var b=typeof a;if(b!="undefined"&&a!==null){return(b!="string"||a!="none")}return false},Init:function(a){abw._init(a)}};(function(e){var b,d;function f(){var g=e(this).css("MozBinding");if(abw._isMozBound(g)){d=true;return false}}function c(){var g=e(this);if(g.css("display")=="none"||g.css("visibility")=="hidden"){d=true;return false}}var a={_isTargetBlocked:function(j,h){var g=null;if(e.browser.mozilla){g=f}else{if(b){g=c}}if(g!=null){d=false;e(h.at).each(g);if(!d){e(h.at).find("*").each(g)}return d}return false},_replace:function(j,g){var h=e(g.rt).html();e(g.at).replaceWith(h)},_init:function(g){e.extend(abw._CONF,g);b=e.browser.webkit&&/chrome/.test(navigator.userAgent.toLowerCase());e(document).ready(abw._exec)}};e.extend(abw,a)})(jQuery);
